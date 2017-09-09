@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Case>
+
+<table id="example" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayName("Date")
+            </th>
+            <th>
+                @Html.DisplayName("Category")
+            </th>
+            <th>
+                @Html.DisplayName("Priority")
+            </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SubmissionDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Priority.PriorityName)
+                </td>
+                <td>
+                    @Html.ActionLink("Show Case", "CaseDetails", "CategoryAdmin", new { caseId = item.CaseID }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

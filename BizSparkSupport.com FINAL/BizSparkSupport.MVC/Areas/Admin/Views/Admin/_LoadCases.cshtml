@@ -1,0 +1,58 @@
+﻿@model List<BizSparkSupport.MVC.Areas.Admin.ViewModels.CategoryCases>
+<table class="table">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+           Case Subject
+        </th>
+        <th>
+            StratUp Name
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            Submission at
+        </th>
+        <th>
+            Closed At
+         </th>
+
+    </tr>
+    @{
+        int counter = 0;
+    }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @{counter = counter + 1;}
+                @Html.DisplayName((counter).ToString())
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusName)
+            </td>
+            <td>
+                @String.Format("{0:ddd, MMM d, yyyy}", item.SubmissionDate)
+               
+            </td>
+            <td>
+                  @Html.DisplayFor(modelItem => item.ClosedAt)
+           </td>
+            
+        </tr>
+
+                    }
+
+
+
+</table>
+

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<BizSparkSupport.MVC.Areas.Admin.ViewModels.CatgeroyView>
+@{
+   
+    ViewBag.Title = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h1>Categories</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="@Url.Action("Dashboard", "Admin")">Dashboard</a></li>
+                <li><a href="@Url.Action("Requests", "Admin")">Requests</a></li>
+                <li class="active"><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+                <li><a href="@Url.Action("Codes", "Admin")">Codes</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-9">
+            <table class="table">
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Category Name
+                    </th>
+
+                    <th>
+                        Category Admin
+                    </th>
+                    <th>
+                        Cases of Category
+                    </th>
+                </tr>
+                @{
+                int counter = 0;
+                }
+                @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>
+                            @{counter = counter + 1;}
+                            @Html.DisplayName((counter).ToString())
+                        </td>
+                        <td>
+                            <a href="@Url.Action("CategoryDetail", "Admin",new { id=item.CategoryID})">  @Html.DisplayFor(modelItem => item.CategoryName)</a>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CategoryAdmin)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CasesNumber)
+                        </td>
+                    </tr>
+            }
+            </table>
+        </div>
+    </div>
+</div>

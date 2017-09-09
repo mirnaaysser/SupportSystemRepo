@@ -1,0 +1,29 @@
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\BizSparkSupport.Mailing.csprojResolveAssemblyReference.cache
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\BizSparkSupport.Mailing.csprojResolveAssemblyReference.cache
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\BizSparkSupport.Mailing.csprojResolveAssemblyReference.cache
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\BizSparkSupport.Mailing.csprojResolveAssemblyReference.cache
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Mailing\bin\Debug\AppFactory.Email.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Mailing\obj\Debug\BizSparkSupport.Mailing.csprojResolveAssemblyReference.cache
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Mailing\obj\Debug\AppFactory.Email.pdb

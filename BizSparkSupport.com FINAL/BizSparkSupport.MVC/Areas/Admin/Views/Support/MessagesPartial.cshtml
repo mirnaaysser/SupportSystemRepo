@@ -1,0 +1,23 @@
+﻿@model BizSparkSupport.MVC.Areas.Admin.ViewModels.MessagesVM
+
+
+<div class="container" style="padding-top:20px;">
+
+    <div class="row">
+        <div class="col-md-4" style="border-right: thick solid #000000;">
+            @Html.Partial("MessageList", Model.Messages)
+        </div>
+        <div class="col-md-4">
+            <div id="CurrentMessageDiv">
+                @if (Model.CurrentMessage != null)
+                {
+                    @Html.Partial("ShowMessage", Model.CurrentMessage)
+                }
+                else
+                {
+                    <h4> No Message to Show</h4>
+                }
+            </div>
+        </div>
+    </div>
+</div>

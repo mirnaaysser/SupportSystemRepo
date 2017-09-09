@@ -1,0 +1,28 @@
+﻿@model BizSparkSupport.DAL.Message
+
+@using (Html.BeginForm("SendMessage", "CategoryAdmin", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ReceiverID)
+
+        @Html.HiddenFor(model => model.CaseID)
+
+        <div class="form-group">
+            @Html.Label("Message", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.MessageContent, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MessageContent, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="modal-footer">
+                <input type="submit" value="Send" class="btn btn-default pull-left" />
+                <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+}

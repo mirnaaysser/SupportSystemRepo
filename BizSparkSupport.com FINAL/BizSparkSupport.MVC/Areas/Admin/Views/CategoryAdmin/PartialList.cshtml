@@ -1,0 +1,6 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Case>
+
+@foreach (var item in Model)
+{
+    @Html.ActionLink((Html.DisplayFor(modelItem => item.Subject)).ToString(), "CaseDetails", "CategoryAdmin", new { caseId = item.CaseID }, new { @class = "btn btn-primary", @style = "margin-right:10px;" })
+}

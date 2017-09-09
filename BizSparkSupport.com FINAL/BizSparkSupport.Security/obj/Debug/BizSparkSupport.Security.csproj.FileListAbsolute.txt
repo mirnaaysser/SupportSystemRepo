@@ -1,0 +1,23 @@
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\BizSparkSupport.Security.csprojResolveAssemblyReference.cache
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\BizSparkSupport.Security.csprojResolveAssemblyReference.cache
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Security\bin\Debug\AppFactory.Security.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.Security\obj\Debug\AppFactory.Security.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Security\bin\Debug\AppFactory.Security.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Security\bin\Debug\AppFactory.Security.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Security\obj\Debug\BizSparkSupport.Security.csprojResolveAssemblyReference.cache
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Security\obj\Debug\AppFactory.Security.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.Security\obj\Debug\AppFactory.Security.pdb

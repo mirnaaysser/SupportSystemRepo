@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d763806e5263487a9e74e846605cd2cd" Name="Diagram1">
+        <EntityTypeShape EntityType="BizSparkSupportModel.Case" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Category" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Code" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Employee" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Employee_Case" Width="1.5" PointX="8.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.File" Width="1.5" PointX="7.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Message" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Priority" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.RequestCode" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Role" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Startup" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.Status" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BizSparkSupportModel.User" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Case_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Case_Priority" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Case_Startup" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Case_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Employee_Case_Case" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_File_Case" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Messages_Case" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Employee_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Employee_Case_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Employee_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Employee_User" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Messages_User" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Messages_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="BizSparkSupportModel.FK_Startup_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

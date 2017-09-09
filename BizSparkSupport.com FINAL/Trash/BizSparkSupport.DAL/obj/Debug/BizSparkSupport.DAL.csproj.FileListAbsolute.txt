@@ -1,0 +1,9 @@
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\BizSparkSupport.DAL.dll.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\BizSparkSupport.DAL.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\BizSparkSupport.DAL.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\EntityFramework.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\EntityFramework.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\obj\Debug\BizSparkSupport.DAL.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.DAL\obj\Debug\BizSparkSupport.DAL.pdb

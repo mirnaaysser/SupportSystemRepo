@@ -1,0 +1,74 @@
+﻿@model BizSparkSupport.MVC.ViewModels.NewCaseVM
+
+@{
+    ViewBag.Title = "";
+}
+
+@using (Html.BeginForm("SendCase", "Case", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <h2>New Case</h2>
+    <div class="container">
+        <ul class="nav nav-pills nav-stacked col-md-3">
+            <li><a href="#History" data-toggle="tab">History</a></li>
+            <li class="active"><a href=" @Url.Action("NewCase", "Case")" data-toggle="tab">New Case</a></li>
+            <li><a href="#Account" data-toggle="tab">Account Settings</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade in active col-md-8" id="History">
+                <div class="panel-group row">
+                    @Html.HiddenFor(model => model.CaseID)
+                    <div class="form-group">
+                        @Html.Label("Category", new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Case.CategoryID, new SelectList(ViewBag.Categories, "CategoryID", "CategoryName"), "Please Select", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Case.CategoryID, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="form-group">
+                        @Html.Label("Priority", new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Case.PriorityID, new SelectList(ViewBag.Priorities, "PriorityID", "PriorityName"), "Please Select", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Case.PriorityID, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="form-group">
+                        @Html.Label("Subject", new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.Case.Subject, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Case.Subject, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="form-group">
+                        @Html.Label("Description", new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextAreaFor(model => model.Case.Description, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Case.Description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="form-group">
+                        @Html.Label("Upload File", new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.File, new { type = "file" })
+                            @Html.ValidationMessageFor(model => model.File)
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="panel-footer">
+                        <div class="btn-group">
+                            <input type="button" value="Go Back" class="btn btn-primary pull-left" onclick="window.history.back()" />
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

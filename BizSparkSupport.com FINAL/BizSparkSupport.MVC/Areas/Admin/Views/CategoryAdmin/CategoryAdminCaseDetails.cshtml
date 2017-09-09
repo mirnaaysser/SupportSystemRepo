@@ -1,0 +1,317 @@
+﻿@model BizSparkSupport.MVC.Areas.Admin.ViewModels.CaseDetailsVM
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "CaseDetails";
+}
+
+<div class="container" style="margin-top:20px;">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel-primary">
+                @if (TempData["CloseCaseError"] != null)
+                {
+                    <h5 class="text-danger">@TempData["CloseCaseError"]</h5>
+                }
+                <div class="panel-heading">
+                    @Html.DisplayFor(model => model.Case.Subject)
+                </div>
+
+                <div class="panel-body">
+                    <table class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayNameFor(model => model.Case.Subject)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.Subject)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayName("Description")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.Description)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayName("Submission Date")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.SubmissionDate)
+                            </td>
+                        </tr>
+                        @if (Model.Case.StatusID == 1)
+                        {
+                            <tr>
+                                <td style="font-weight:bold">
+                                    @Html.DisplayName("Closed At")
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => model.Case.ClosedAt)
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayName("Category")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.Category.CategoryName)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayName("Priority")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.Priority.PriorityName)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayName("Company")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.Startup.CompanyName)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight:bold">
+                                @Html.DisplayName("Status")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Case.Status.StatusName)
+                            </td>
+                        </tr>
+                        @if (Model.Content != null)
+                        {
+                            <tr>
+                                <td style="font-weight:bold">
+                                    @Html.DisplayName("Files")
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("DownloadFile","CategoryAdmin",new { id = Model.FileID })">Download</a>
+                                </td>
+                            </tr>
+                        }
+                        @if (Model.Case.StatusID != 4)
+                        {
+                            foreach (var x in Model.AllEmployeeCases)
+                            {
+                                foreach (var y in Model.AllAssignedEmployees)
+                                {
+                                    if (x.EmployeeID == y.UserID)
+                                    {
+                                        <tr>
+                                            @if (x.OpenedAt != null)
+                                            {
+                                                <td style="font-weight:bold">
+                                                    @Html.DisplayName("Assigned To / Opened At")
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(m => y.FirstName) (@Html.DisplayFor(m => y.Email)) / @Html.DisplayFor(m => x.OpenedAt)
+                                                    @if (x.Case.StatusID == 2 || x.Case.StatusID == 4)
+                                                    {
+                                                        if (x.IsDeleted != true)
+                                                        {
+                                                            <a class="btn" style="float:right" data-toggle="modal" data-target="#confirmmodal">Remove </a>
+                                                                @*@Html.ActionLink("Remove", "RemoveAssignedEmployee", "CategoryAdmin", new { empId = x.EmployeeID, caseId = x.CaseID }, null)*@
+                                                                <div class="modal fade" id="confirmmodal">
+                                                                    <div class="modal-dialog">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">Remove From Case</div>
+                                                                            <div class="modal-body">
+                                                                                <h4>Are You Sure you want to remove this Employee?</h4>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                                                                <a href="@Url.Action("RemoveAssignedEmployee", "CategoryAdmin",new { empId = x.EmployeeID, caseId = x.CaseID })" class="btn btn-danger btn-danger">Delete</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        }
+                                                        else
+                                                        {
+                                                            <span class="danger" style="color:red"> @Html.DisplayName("Removed")</span>
+                                                        }
+                                                    }
+                                                </td>
+
+                                            }
+                                            else
+                                            {
+                                                <td style="font-weight:bold">
+                                                    @Html.DisplayName("Assigned To")
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(m => y.FirstName) (@Html.DisplayFor(m => y.Email))
+                                                    @if (x.IsDeleted != true)
+                                                    {
+                                                        <a class="btn" style="float:right" data-toggle="modal" data-target="#confirmmodal">Remove</a>
+                                                            @*@Html.ActionLink("Remove", "RemoveAssignedEmployee", "CategoryAdmin", new { empId = x.EmployeeID, caseId = x.CaseID }, null)*@
+                                                            <div class="modal fade" id="confirmmodal">
+                                                                <div class="modal-dialog">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">Rempve From Case</div>
+                                                                        <div class="modal-body">
+                                                                            <h4>Are You Sure you want to remove this Employee?</h4>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                                                            <a href="@Url.Action("RemoveAssignedEmployee", "CategoryAdmin", new { empId = x.EmployeeID, caseId = x.CaseID })" class="btn btn-danger btn-danger">Delete</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="danger" style="color:red"> @Html.DisplayName("Removed")</span>
+                                                    }
+                                                </td>
+                                            }
+                                        </tr>
+                                    }
+                                }
+
+                            }
+                        }
+                    </table>
+                </div>
+                <div class="panel-footer">
+                    <div class="btn-group">
+                        @Html.ActionLink("Go Back", "CategoryAdminDashboard", "CategoryAdmin", null, new { @class = "btn btn-primary" })
+
+                        @if (Model.Case.StatusID == 4)
+                        {
+                            @*@Html.ActionLink("Go Back", "GetNewList", "CategoryAdmin", null, new { @class = "btn btn-primary" })*@
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#bootstrapmodal"><span class="glyphicon glyphicon-eye-open"></span>Assign to Employee</a>
+                            <a class="btn btn-success" data-toggle="modal" data-target="#closecaseconfirmmodal">Close</a>
+                                @*@Html.ActionLink("Close", "CloseCase", "CategoryAdmin", new { caseId = Model.Case.CaseID }, new { @class = "btn btn-success" })*@
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#LeaveMessage">Leave A Message</button>
+                        }
+                        else if (Model.Case.StatusID == 2)
+                        {
+                            @*if (Model.EmployeeCase.OpenedAt == null)
+                                {
+                                    @Html.ActionLink("Go Back", "GetAssignedList", "CategoryAdmin", null, new { @class = "btn btn-primary" })
+                                }
+                                else
+                                {
+                                    @Html.ActionLink("Go Back", "GetOpenList", "CategoryAdmin", null, new { @class = "btn btn-primary" })
+                                }*@
+                            @*@Html.ActionLink("Go Back", "CategoryAdminDashboard", "CategoryAdmin", null, new { @class = "btn btn-primary" })*@
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#bootstrapmodal"><span class="glyphicon glyphicon-eye-open"></span>Assign to Employee</a>
+                            <a class="btn btn-success" data-toggle="modal" data-target="#closecaseconfirmmodal">Close</a>
+                                @*@Html.ActionLink("Close", "CloseCase", "CategoryAdmin", new { caseId = Model.Case.CaseID }, new { @class = "btn btn-success" })*@
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#LeaveMessage">Leave A Message</button>
+                                @*@Html.ActionLink("Escalate", "EscalateCase", "Support", new { caseId = Model.CaseID }, new { @class = "btn btn-danger" })*@
+
+                                @*download file*@
+                                @*@Html.ActionLink("Close", "CloseCase", "Support", new { caseId = Model.CaseID }, new { @class = "btn btn-success" })*@
+
+                        }
+                        @*else if (Model.Case.StatusID == 1)
+                            {
+                                @Html.ActionLink("Go Back", "CategoryAdminDashboard", "CategoryAdmin", null, new { @class = "btn btn-primary" })
+                            }*@
+                        else if (Model.Case.StatusID == 3)
+                        {
+                            @*@Html.ActionLink("Go Back", "GetEscalatedList", "CategoryAdmin", null, new { @class = "btn btn-primary" })*@
+                            <a class="btn btn-danger" data-toggle="modal" data-target="#bootstrapmodal"><span class="glyphicon glyphicon-eye-open"></span>Assign to Employee</a>
+                            <a class="btn btn-success" data-toggle="modal" data-target="#closecaseconfirmmodal">Close</a>
+                                @*@Html.ActionLink("Close", "CloseCase", "CategoryAdmin", new { caseId = Model.Case.CaseID }, new { @class = "btn btn-success" })*@
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#LeaveMessage">Leave A Message</button>
+                        }
+                        @*@Html.ActionLink("See Messages History", "Messages", "CategoryAdmin", new { caseId = Model.Case.CaseID }, new { @class = "btn btn-primary" })*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel-success">
+            <div class="panel-heading">Category Admin Case Messages </div>
+            <div class="panel-body">
+                @Html.Partial("MessagesPartial", Model.MessagesModel)
+            </div>
+
+        </div>
+    </div>
+    <br> <br>
+</div>
+
+<div class="modal fade" id="closecaseconfirmmodal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">Close Case</div>
+            <div class="modal-body">
+                <h4>Are You Sure you want to close this case?</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <a href="@Url.Action("CloseCase", "CategoryAdmin",new { caseId = Model.Case.CaseID })" class="btn btn-danger btn-danger">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade " id="bootstrapmodal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                </button>
+                <h4 class="modal-title">Assign</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="inputUserName">Employees</label>
+                    <table id="example" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <td>@Html.DisplayName("Select")</td>
+                                <td>@Html.DisplayName("Employee Name")</td>
+                                <td>@Html.DisplayName("Employee Email")</td>
+                            </tr>
+                        </thead>
+                        @foreach (var item in Model.AllEmployees)
+                        {
+                            <tr>
+                                <td>@Html.ActionLink("Assign", "AssignEmployees", "CategoryAdmin", new { empId = item.EmployeeID, caseId = Model.Case.CaseID }, new { @class = "btn btn-success" })</td>
+                                <td>@Html.DisplayFor(modelItem => item.User.FirstName) @Html.DisplayFor(modelItem => item.User.LastName)</td>
+                                <td>@Html.DisplayFor(modelItem => item.User.Email)</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="LeaveMessage" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Send Message</h4>
+            </div>
+            <div class="modal-body">
+                @{ var data = new BizSparkSupport.DAL.Message { ReceiverID = Model.Case.StartupID, CaseID = Model.Case.CaseID }; }
+                @Html.Partial("LeaveMessage", data)
+            </div>
+        </div>
+    </div>
+</div>
+

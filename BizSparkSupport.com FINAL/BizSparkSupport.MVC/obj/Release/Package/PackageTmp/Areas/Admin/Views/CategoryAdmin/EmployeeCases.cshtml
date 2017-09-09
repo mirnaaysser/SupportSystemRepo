@@ -1,0 +1,79 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Case>
+@{
+    ViewBag.Title = "EmployeeCases";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <h2>@ViewBag.EmpName</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="example" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Subject)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Description)
+                        </th>
+                        <th>
+                            @Html.DisplayName("Date")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Category")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Priority")
+                        </th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                @{
+                    int counter = 0;
+                }
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @{counter = counter + 1;}
+                                @Html.DisplayName((counter).ToString())
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Subject)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SubmissionDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Priority.PriorityName)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Show Case", "CaseDetails", "CategoryAdmin", new { caseId = item.CaseID }, null)
+                            </td>
+                        </tr>
+                                    }
+                </tbody>
+            </table>
+        </div>
+        @*<div class="col-md-3">
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="@Url.Action("Dashboard", "Admin")">Dashboard</a></li>
+                    <li><a href="@Url.Action("Requests", "Admin")">Requests</a></li>
+                    <li class="active"><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+                </ul>
+            </div>*@
+    </div>
+    <div class="btn-group">
+        @Html.ActionLink("Back to Dashboard", "CategoryAdminDashboard", "CategoryAdmin", null, new { @class = "btn btn-primary" })
+    </div>
+</div>

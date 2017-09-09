@@ -1,0 +1,59 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Employee>
+<table class="table">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            Employee Username
+        </th>
+
+        <th>
+           Joining Date
+        </th>
+        <th>
+            Position
+        </th>
+
+    </tr>
+    @{
+        int counter = 0;
+    }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @{counter = counter + 1;}
+                @Html.DisplayName((counter).ToString())
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @String.Format("{0:ddd, MMM d, yyyy}", item.User.CreatedAt)
+            </td>
+
+            @if (item.RoleID == 1)
+            {
+                <td>
+                    Admin
+                </td>
+            }
+            @if (item.RoleID == 2)
+            {
+                <td>
+                    Admin of a category
+                </td>
+            }
+            @if (item.RoleID == 3)
+            {
+                <td>
+                    Employee
+                </td>
+            }
+        </tr>
+                    }
+
+
+
+</table>

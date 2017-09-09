@@ -1,0 +1,87 @@
+﻿@model BizSparkSupport.MVC.ViewModels.Dashboard
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div class="container" style="margin-top: 20px;">
+    <div style="margin: 20px;">
+        @{ BizSparkSupport.DAL.User user = (BizSparkSupport.DAL.User)HttpContext.Current.Session["USER"]; }
+        @if (user.IsVerified != true)
+        {
+            <h1>Please Verify Your Account</h1>
+        }
+    </div>
+    <ul class="nav nav-pills nav-stacked col-md-3">
+        <li class="active"><a href="#History" data-toggle="tab">Dashboard</a></li>
+        @*<li><a href="#New" data-toggle="tab">New Case</a></li>*@
+        <li data-toggle="tab">
+            <a data-toggle="collapse" data-target="#list">New Case</a>
+            <ul class="collapse nav" id="list" style="text-align:center;">
+                <li class="nav-item"><a href="#New" data-toggle="tab">Send a New Case</a></li>
+                <li><a href="#Bot" data-toggle="tab">Chat Bot</a></li>
+            </ul>
+        </li>
+        <li><a href="#Account" data-toggle="tab">Account Settings</a></li>
+    </ul>
+    
+    <div class="tab-content">
+        <div class="tab-pane fade in active col-md-8" id="History">
+            <div class="panel-group row">
+                <div class="panel-success">
+                    <div class="panel-heading">
+                        @Html.DisplayName("Solved Cases")
+                    </div>
+                    <div class="panel-body">
+                        @if (Model.Closed.FirstOrDefault() != null)
+                        {
+                            @Html.Partial("PartialList", Model.Closed)
+                        }
+                    </div>
+                    <div class="panel-footer">
+                        @Html.ActionLink("Show More..", "GetSolvedList", "Case")
+                    </div>
+                </div>
+                <hr>
+                <div class="panel-info">
+                    <div class="panel-heading">
+                        @Html.DisplayName("Current Cases")
+                    </div>
+                    <div class="panel-body">
+                        @if (Model.Current.FirstOrDefault() != null)
+                        {
+                            @Html.Partial("PartialList", Model.Current)
+                        }
+                    </div>
+                    <div class="panel-footer">
+                        @Html.ActionLink("Show More..", "GetSolvingList", "Case")
+                    </div>
+                </div>
+                <hr>
+                <div class="panel-danger">
+                    <div class="panel-heading">
+                        @Html.DisplayName("Escalated Cases")
+                    </div>
+                    <div class="panel-body">
+                        @if (Model.Escalated.FirstOrDefault() != null)
+                        {
+                            @Html.Partial("PartialList", Model.Escalated)
+                        }
+                    </div>
+                    <div class="panel-footer">
+                        @Html.ActionLink("Show More..", "GetEscalatedList", "Case")
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="New">
+            @Html.Partial("CreateNewCase", Model.newCaseVM)
+        </div>
+        <div class="tab-pane fade" id="Bot">
+            <p>Coming Soon !</p>
+        </div>
+        <div class="tab-pane fade" id="Account">
+            @Html.Partial("Profile", ((BizSparkSupport.MVC.ViewModels.RegisterModel)ViewBag.Profile))
+        </div>
+    </div>
+</div>

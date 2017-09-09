@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Employee>
+
+<div class="row">
+    <div class="col-md-9">
+        <table class="table">
+            <tr>
+                <th>#</th>
+                <th>Employee Name</th>
+                <th>UserName</th>
+                <th>Employee Email</th>
+                <th>Employee Mobile</th>
+                <th>Employee Records Created At</th>
+            </tr>
+            @{
+                int counter = 0;
+            }
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @{counter = counter + 1;}
+                        @Html.DisplayName((counter).ToString())
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.FirstName) @Html.DisplayFor(modelItem => item.User.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.Mobile)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.CreatedAt)
+                    </td>
+                </tr>
+                            }
+        </table>
+    </div>
+    @*<div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="@Url.Action("Dashboard", "Admin")">Dashboard</a></li>
+            <li><a href="@Url.Action("Requests", "Admin")">Requests</a></li>
+            <li class="active"><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+        </ul>
+    </div>*@
+</div>

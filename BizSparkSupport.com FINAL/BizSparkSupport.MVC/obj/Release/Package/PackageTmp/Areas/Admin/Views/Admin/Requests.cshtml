@@ -1,0 +1,69 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.RequestCode>
+
+@{
+    ViewBag.Title = "Requests";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Requests</h2>
+    <div class="row">
+
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="@Url.Action("Dashboard", "Admin")">Dashboard</a></li>
+                <li class="active"><a href="#">Requests</a></li>
+                <li><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+                <li><a href="@Url.Action("Codes", "Admin")">Codes</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+
+            @if (@ViewBag.error != null)
+        {
+
+                <div style="border:1px solid red">
+                    @ViewBag.error
+                </div>
+        }
+            <table class="table">
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Requested Emails
+                    </th>
+                    <th>
+                        Action
+                    </th>
+
+                </tr>
+                @{
+                int counter = 0;
+                }
+                @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>
+                            @{counter = counter + 1;}
+                            @Html.DisplayName((counter).ToString())
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Send", "SendCode", new { id = item.RequestID }) |
+                            @Html.ActionLink("Ignore", "Ignore", new { id = item.RequestID })
+
+                        </td>
+                    </tr>
+                            }
+            </table>
+            <a href="@Url.Action("Codes","Admin")">See all codes</a>
+        </div>
+
+    </div>
+</div>
+
+

@@ -1,0 +1,105 @@
+﻿@model BizSparkSupport.MVC.ViewModels.Dashboard
+
+@{
+    ViewBag.Title = "EscalatedCasesList";
+}
+
+<div class="container" style="margin-top: 20px;">
+
+    <ul class="nav nav-pills nav-stacked col-md-3">
+        <li class="active"><a href="#History" data-toggle="tab">Dashboard</a></li>
+        <li data-toggle="tab">
+            <a data-toggle="collapse" data-target="#list">New Case</a>
+            <ul class="collapse nav" id="list" style="text-align:center;">
+                <li class="nav-item"><a href="#New" data-toggle="tab">Send a New Case</a></li>
+                <li><a href="#Bot" data-toggle="tab">Chat Bot</a></li>
+            </ul>
+        </li>
+        <li><a href="#Account" data-toggle="tab">Account Settings</a></li>
+    </ul>
+    <!-- Tabbable Widget -->
+    <div class="tab-content">
+        <div class="tab-pane fade in active col-md-8" id="History">
+            <!-- Tabbable Widget -->
+            <div class="panel-group row">
+                <div class="tabbable paper-shadow relative" data-z="0.5">
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs">
+                        <li><a href="/Case/Dashboard"><i class="fa fa-fw fa-credit-card"></i> <span class="hidden-sm hidden-xs">Solved Cases</span></a></li>
+                        <li ><a href="/Case/GetSolvingList"><i class="fa fa-fw fa-credit-card"></i> <span class="hidden-sm hidden-xs">Current Cases</span></a></li>
+                        <li class="active"><a href="/Case/GetEscalatedList"><i class="fa fa-fw fa-credit-card"></i> <span class="hidden-sm hidden-xs">Escalated Cases</span></a></li>
+
+                    </ul>
+                    <!-- // END Tabs -->
+
+                    @if (Model.Escalated.Count == 0)
+                    {
+                        <Label style="margin-top: 20px;">No Escalated Cases</Label>
+
+                    }
+
+                    <table id="example" class="table table-striped table-bordered nowrap" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayName("Subject")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Description")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Date")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Category")
+                                </th>
+                                <th>
+                                    @Html.DisplayName("Priority")
+                                </th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Escalated)
+                          {         <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Subject)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Description)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.SubmissionDate)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Priority.PriorityName)
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink("Show Case", "CaseDetails", "Case", new { caseId = item.CaseID }, null)
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    <!-- Panes -->
+                    <!-- // END Panes -->
+                </div>
+                <!-- // END Tabbable Widget -->
+            </div>
+        </div>
+        <div class="tab-pane fade" id="New">
+            @Html.Partial("CreateNewCase", Model.newCaseVM)
+        </div>
+        <div class="tab-pane fade" id="Bot">
+            <p>Coming Soon !</p>
+        </div>
+        <div class="tab-pane fade" id="Account">
+            @Html.Partial("Profile", ((BizSparkSupport.MVC.ViewModels.RegisterModel)ViewBag.Profile))
+        </div>
+    </div>
+</div>
+

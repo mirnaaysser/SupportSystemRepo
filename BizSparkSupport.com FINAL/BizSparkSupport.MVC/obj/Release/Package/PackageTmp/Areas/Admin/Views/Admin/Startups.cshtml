@@ -1,0 +1,132 @@
+﻿@model IEnumerable<BizSparkSupport.MVC.Areas.Admin.ViewModels.StartUpDetails>
+@{
+    ViewBag.Title = "Startups";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2> Admin Dashboard</h2>
+    <div class="row">
+
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#">Dashboard</a></li>
+                <li><a href="@Url.Action("Requests", "Admin")">Requests</a></li>
+                <li><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div class="page-section third">
+                <!-- Tabbable Widget -->
+                <div class="tabbable paper-shadow relative" data-z="0.5">
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs">
+                        <li><a href="/Admin/Admin/Dashboard"><i class="fa fa-fw fa-lock"></i> <span class="hidden-sm hidden-xs">Employees</span></a></li>
+                        <li class="active"><a href="/Admin/Admin/Startups"><i class="fa fa-fw fa-credit-card"></i> <span class="hidden-sm hidden-xs">StartUps</span></a></li>
+                    </ul>
+                    <!-- // END Tabs -->
+
+                    <table class="table">
+                        <tr>
+                            <th>
+                                @Html.DisplayName("StartUp")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Telephone")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Email")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Number of Cases")
+                            </th>
+
+                            <th>
+                                @Html.DisplayName("Change State")
+                            </th>
+                            <th></th>
+                        </tr>
+
+                        @foreach (var item in Model)
+                    {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.StartUpName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.telephone)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.email)
+                                </td>
+                                <td>
+                                    @Html.ActionLink(@Html.DisplayFor(modelItem => item.noCases).ToString(), "StartUpCases", "Admin", new { sID = item.StartUpID }, null)
+
+
+                                </td>
+                                <td>
+                                    @if (item.Active == true)
+                                {
+                                        <a class="btn btn-danger" style="float:right" data-toggle="modal" data-target="#deactivateModal"><span class="danger"></span> Deactivate </a>
+                                        <div class="modal fade" id="deactivateModal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        Deactivate
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h4>Are You Sure you want to Deactivate This StartUp? </h4>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+
+                                                        <a href="@Url.Action("ChangeState", "Admin",new { id= item.StartUpID })" class="btn btn-danger btn-danger">Deactivate</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                }
+                                else
+                                {
+                                        <a class="btn btn-danger" style="float:right" data-toggle="modal" data-target="#activateModal"><span class="danger"></span> Activate </a>
+                                        <div class="modal fade " id="activateModal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        Activate
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h4>Are You Sure you want to Activate This StartUp </h4>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+
+                                                        <a href="@Url.Action("ChangeState", "Admin",new { id= item.StartUpID })" class="btn btn-danger btn-danger">Activate</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                }
+
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Date)
+                                </td>
+                            </tr>
+
+                    }
+
+                    </table>
+
+
+                    <!-- Panes -->
+                    <!-- // END Panes -->
+                </div>
+                <!-- // END Tabbable Widget -->
+            </div>
+
+
+        </div>
+
+    </div>
+</div>

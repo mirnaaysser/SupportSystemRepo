@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BizSparkSupportModelStoreContainer" CdmEntityContainer="BizSparkSupportEntities">
+    <EntitySetMapping Name="Cases">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Case">
+        <MappingFragment StoreEntitySet="Case">
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SubmissionDate" ColumnName="SubmissionDate" />
+          <ScalarProperty Name="ClosedAt" ColumnName="ClosedAt" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="StartupID" ColumnName="StartupID" />
+          <ScalarProperty Name="PriorityID" ColumnName="PriorityID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Codes">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Code">
+        <MappingFragment StoreEntitySet="Code">
+          <ScalarProperty Name="CodeID" ColumnName="CodeID" />
+          <ScalarProperty Name="CodeValue" ColumnName="CodeValue" />
+          <ScalarProperty Name="UsedBefore" ColumnName="UsedBefore" />
+          <ScalarProperty Name="ExpireAt" ColumnName="ExpireAt" />
+          <ScalarProperty Name="Sent" ColumnName="Sent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee_Case">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Employee_Case">
+        <MappingFragment StoreEntitySet="Employee_Case">
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="OpenedAt" ColumnName="OpenedAt" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AssignDate" ColumnName="AssignDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Files">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.File">
+        <MappingFragment StoreEntitySet="File">
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="SavedFileName" ColumnName="SavedFileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Message">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+          <ScalarProperty Name="SenderID" ColumnName="SenderID" />
+          <ScalarProperty Name="ReceiverID" ColumnName="ReceiverID" />
+          <ScalarProperty Name="MessageContent" ColumnName="MessageContent" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="SubmissionDate" ColumnName="SubmissionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Priorities">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Priority">
+        <MappingFragment StoreEntitySet="Priority">
+          <ScalarProperty Name="PriorityID" ColumnName="PriorityID" />
+          <ScalarProperty Name="PriorityName" ColumnName="PriorityName" />
+          <ScalarProperty Name="PriorityColor" ColumnName="PriorityColor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestCodes">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.RequestCode">
+        <MappingFragment StoreEntitySet="RequestCode">
+          <ScalarProperty Name="RequestID" ColumnName="RequestID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Startups">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Startup">
+        <MappingFragment StoreEntitySet="Startup">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyNumber" ColumnName="CompanyNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="BizSparkSupportModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Hash" ColumnName="Hash" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="RememberToken" ColumnName="RememberToken" />
+          <ScalarProperty Name="VerificationToken" ColumnName="VerificationToken" />
+          <ScalarProperty Name="IsVerified" ColumnName="IsVerified" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

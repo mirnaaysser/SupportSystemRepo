@@ -1,0 +1,41 @@
+﻿@model BizSparkSupport.DAL.Message
+
+<div class="container">
+    <h4>Message</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Sender Email")
+            @*@Html.DisplayNameFor(model => model.User.Email)*@
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Receiver Email")
+            @*@Html.DisplayNameFor(model => model.User1.Email)*@
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User1.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageContent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageContent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Case.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Case.Subject)
+        </dd>
+    </dl>
+</div>

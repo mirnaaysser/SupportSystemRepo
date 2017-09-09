@@ -1,0 +1,120 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Code>
+
+@{
+    ViewBag.Title = "Codes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Codes</h2>
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="@Url.Action("Dashboard", "Admin")">Dashboard</a></li>
+                <li><a href="@Url.Action("Requests", "Admin")">Requests</a></li>
+                <li><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+                <li class="active"><a href="@Url.Action("Codes", "Admin")">Codes</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <table class="table">
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Code Value
+                    </th>
+                    <th>
+                        Used
+                    </th>
+                    <th>
+                        Expired Date
+                    </th>
+                </tr>
+                @{
+                    int counter = 0;
+                }
+                @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>
+                            @{counter = counter + 1;}
+                            @Html.DisplayName((counter).ToString())
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CodeValue)
+                        </td>
+                        @if (item.UsedBefore == false)
+                        {
+                            <td>
+                                <p style="color:forestgreen">Not Used</p>
+                            </td>
+                        }
+                        @if (item.UsedBefore == true)
+                        {
+                            <td>
+                                <p style="color:red">Used</p>
+                            </td>
+                        }
+                        <td>
+                            @*@Html.DisplayFor(modelItem => item.ExpireAt)*@
+                            @String.Format("{0:ddd, MMM d, yyyy}", item.ExpireAt)
+                        </td>
+                    </tr>
+                                }
+
+            </table>
+        </div>
+
+        <div class="col-md-3">
+            <table class="table">
+                <tr>
+                    <th>Total codes</th>
+                    <th> Used</th>
+                </tr>
+                <tr>
+                    <td><center>@ViewBag.Total</center></td>
+                    <td><center>@ViewBag.Used</center></td>
+                </tr>
+            </table>
+            <a class="btn btn-success" data-toggle="modal" data-target=".bootstrapmodal"><span class="glyphicon glyphicon-eye-open"></span>Generate new Code </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade bootstrapmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                </button>
+                <h4 class="modal-title">Generated Codes</h4>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("GenerateCode", "Admin"))
+                {
+                    <div class="form-group">
+                        <label for="inputUserName">Number of codes</label>
+                        @Html.TextBox("Number", null, new { @class = "form-control", @type = "number", max = "100", min = "1", required = "required" })
+
+                    </div>
+
+                        <button type="submit" class="btn btn-primary" style="float:right">Generate</button>
+                }
+            </div>
+            <div class="modal-footer">
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+

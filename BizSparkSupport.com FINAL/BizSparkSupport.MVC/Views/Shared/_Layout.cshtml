@@ -1,0 +1,947 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="Description" content="Microsoft is here to help startups at every stage of their journey." />
+    <meta name="Keywords" content="Microsoft,Startup,Support,Accelerator,Venture,BizSpark,Azure" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Cache-control" content="no-cache">
+
+    <title>@ViewBag.Title - BizSpark Support</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.22.3/css/uhf-west-european-default.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/star-rating.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.2/css/fixedHeader.bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" />
+
+    @RenderSection("customCss", required: false)
+</head>
+<body style="overflow:auto;">
+
+    <!-- UHF HEADER -->
+    <section id="headerArea">
+        <div id="headerRegion">
+            <div id="headerUniversalHeader">
+                <header role="banner" class="c-universal-header context-uhf no-js ">
+                    <div class="theme-light js-global-head f-closed " ms.pgarea='Universal Header'>
+                        <div>
+                            <button class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="Toggle menu" aria-expanded="false" ms.title='Mobile menu button'></button>
+                            <button class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" ms.title='Close Search'></button>
+                            <a id="uhfLogo" class="c-logo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" ms.cmpgrp='logo'>
+                                <img itemprop="logo" itemscope="itemscope" class="c-image" alt="Microsoft" src="https://assets.onestore.ms/cdnfiles/external/uhf/long/9a49a7e9d8e881327e81b9eb43dabc01de70a9bb/images/microsoft-gray.png">
+                                <span>Microsoft</span>
+                            </a>
+                            <div class="f-mobile-title">
+                                <button class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" ms.title='Mobile back button'></button>
+                                <span data-global-title="Microsoft home" class="js-mobile-title">Microsoft BizSpark</span>
+                                <button class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" ms.title='Mobile forward button'></button>
+                            </div>
+
+                            <nav id="uhf-g-nav" ms.cmpgrp='nav'>
+                                <ul>
+                                    <li>
+                                        <div class="c-uhf-menu js-nav-menu">
+
+                                            <button id="Technologies-navigation" aria-expanded="false" aria-haspopup="true" ms.title='Technologies' ms.interactiontype='14' style="white-space:nowrap">Technologies</button>
+                                            <ul aria-labelledby="Technologies-navigation" aria-hidden="true" ms.cmpnm='Technologies'>
+                                                <li ms.cmpnm='Technologies_.NET'>
+                                                    <a id="shellmenu_1" href="https://www.dot.net" ms.title='Technologies_.NET'>.NET</a>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Windows'>
+                                                    <button id="Windows-navigation" aria-expanded="false" ms.title='Windows' ms.interactiontype='14'>Windows</button>
+                                                    <ul aria-labelledby="Windows-navigation" aria-hidden="true" ms.cmpnm='Windows'>
+                                                        <li ms.cmpnm='Windows_Apps'>
+                                                            <a id="shellmenu_3" href="https://developer.microsoft.com/windows" ms.title='Windows_Apps'>Apps</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Windows_InternetofThings'>
+                                                            <a id="shellmenu_4" href="https://developer.microsoft.com/windows/iot" ms.title='Windows_InternetofThings'>Internet of Things</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Windows_Holographic'>
+                                                            <a id="shellmenu_5" href="https://developer.microsoft.com/en-us/windows/mixed-reality" ms.title='Windows_Holographic'>Mixed Reality</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Windows_MicrosoftEdge'>
+                                                            <a id="shellmenu_6" href="https://developer.microsoft.com/microsoft-edge" ms.title='Windows_MicrosoftEdge'>Microsoft Edge</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Windows_Hardware '>
+                                                            <a id="shellmenu_7" href="https://developer.microsoft.com/windows/hardware" ms.title='Windows_Hardware '>Hardware </a>
+                                                        </li>
+                                                        <li ms.cmpnm='Windows_WindowsTechCenter'>
+                                                            <a id="shellmenu_8" href="https://technet.microsoft.com/windows" ms.title='Windows_WindowsTechCenter'>IT Center</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='MicrosoftAzure'>
+                                                    <button id="MicrosoftAzure-navigation" aria-expanded="false" ms.title='MicrosoftAzure' ms.interactiontype='14'>Microsoft Azure </button>
+                                                    <ul aria-labelledby="MicrosoftAzure-navigation" aria-hidden="true" ms.cmpnm='MicrosoftAzure'>
+                                                        <li ms.cmpnm='MicrosoftAzure_WhatisAzure'>
+                                                            <a id="shellmenu_10" href="https://azure.microsoft.com/overview/what-is-azure/" ms.title='MicrosoftAzure_WhatisAzure'>What is Azure </a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftAzure_Products'>
+                                                            <a id="shellmenu_11" href="https://azure.microsoft.com/services/" ms.title='MicrosoftAzure_Products'>Products</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftAzure_Solutions'>
+                                                            <a id="shellmenu_12" href="https://azure.microsoft.com/solutions/?v=4" ms.title='MicrosoftAzure_Solutions'>Solutions</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftAzure_Pricing'>
+                                                            <a id="shellmenu_13" href="https://azure.microsoft.com/pricing/" ms.title='MicrosoftAzure_Pricing'>Pricing</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftAzure_CreateaFreeAccount'>
+                                                            <a id="shellmenu_14" href="https://azure.microsoft.com/free" ms.title='MicrosoftAzure_CreateaFreeAccount'>Create a free account</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='MicrosoftVisualStudio'>
+                                                    <button id="VisualStudio-navigation" aria-expanded="false" ms.title='MicrosoftVisualStudio' ms.interactiontype='14'>Visual Studio </button>
+                                                    <ul aria-labelledby="VisualStudio-navigation" aria-hidden="true" ms.cmpnm='MicrosoftVisualStudio'>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_VisualStudio'>
+                                                            <a id="shellmenu_16" href="https://www.visualstudio.com/ " ms.title='MicrosoftVisualStudio_VisualStudio'>Visual Studio</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_VisualStudioIDE'>
+                                                            <a id="shellmenu_17" href="https://www.visualstudio.com/vs/ " ms.title='MicrosoftVisualStudio_VisualStudioIDE'>Visual Studio IDE</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_VisualStudioTeamServices'>
+                                                            <a id="shellmenu_18" href="https://www.visualstudio.com/team-services/ " ms.title='MicrosoftVisualStudio_VisualStudioTeamServices'>Visual Studio Team Services</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_VisualStudioCode'>
+                                                            <a id="shellmenu_19" href="https://code.visualstudio.com" ms.title='MicrosoftVisualStudio_VisualStudioCode'>Visual Studio Code</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_Xamarin'>
+                                                            <a id="shellmenu_20" href="https://www.xamarin.com/" ms.title='MicrosoftVisualStudio_Xamarin'>Xamarin</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_VisualStudioDevEssentials'>
+                                                            <a id="shellmenu_21" href="https://www.visualstudio.com/dev-essentials/ " ms.title='MicrosoftVisualStudio_VisualStudioDevEssentials'>Visual Studio Dev Essentials</a>
+                                                        </li>
+                                                        <li ms.cmpnm='MicrosoftVisualStudio_Subscriptions'>
+                                                            <a id="shellmenu_22" href="https://www.visualstudio.com/subscriptions/" ms.title='MicrosoftVisualStudio_Subscriptions'>Subscriptions</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Office'>
+                                                    <button id="Office-navigation" aria-expanded="false" ms.title='Office' ms.interactiontype='14'>Office</button>
+                                                    <ul aria-labelledby="Office-navigation" aria-hidden="true" ms.cmpnm='Office'>
+                                                        <li ms.cmpnm='Office_OfficeDevCenter'>
+                                                            <a id="shellmenu_24" href="https://dev.office.com/" ms.title='Office_OfficeDevCenter'>Office Dev Center</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Office_Office365forITpros'>
+                                                            <a id="shellmenu_25" href="https://technet.microsoft.com/en-us/office/dn788774" ms.title='Office_Office365forITpros'>Office 365 for IT pros</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li ms.cmpnm='Microsoft Graph'>
+                                                    <a id="shellmenu_26" href="https://Graph.microsoft.io/en-us/docs" ms.title='Microsoft Graph'>Microsoft Graph</a>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Services '>
+                                                    <button id="Services-navigation" aria-expanded="false" ms.title='Services ' ms.interactiontype='14'>Services </button>
+                                                    <ul aria-labelledby="Services-navigation" aria-hidden="true" ms.cmpnm='Services '>
+                                                        <li ms.cmpnm='Services_OfficeDevCenter'>
+                                                            <a id="shellmenu_28" href="https://developer.microsoft.com/store" ms.title='Services_OfficeDevCenter'>Store</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Services_Cortana'>
+                                                            <a id="shellmenu_29" href="https://developer.microsoft.com/cortana" ms.title='Services_Cortana'>Cortana</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Services_Bing'>
+                                                            <a id="shellmenu_30" href="https://bing.com/dev/dev-center" ms.title='Services_Bing'>Bing</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Services_ApplicationInsights'>
+                                                            <a id="shellmenu_31" href="https://azure.microsoft.com/services/application-insights" ms.title='Services_ApplicationInsights'>Application Insights</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="c-uhf-menu js-nav-menu">
+                                            <button id="Documentation-navigation" aria-expanded="false" aria-haspopup="true" ms.title='Documentation' ms.interactiontype='14' style="white-space:nowrap">Documentation</button>
+                                            <ul aria-labelledby="Documentation-navigation" aria-hidden="true" ms.cmpnm='Documentation'>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Build_DeveloperCenters'>
+                                                    <button id="Platforms-navigation" aria-expanded="false" ms.title='Build_DeveloperCenters' ms.interactiontype='14'>Platforms</button>
+                                                    <ul aria-labelledby="Platforms-navigation" aria-hidden="true" ms.cmpnm='Build_DeveloperCenters'>
+                                                        <li ms.cmpnm='Documentation_Platforms_.NET'>
+                                                            <a id="shellmenu_34" href="https://www.dot.net" ms.title='Documentation_Platforms_.NET'>.NET</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_MicrosoftAzure'>
+                                                            <a id="shellmenu_35" href="https://azure.microsoft.com/en-us/documentation/" ms.title='Build_DeveloperCenters_MicrosoftAzure'>Microsoft Azure</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_MicrosoftGraph'>
+                                                            <a id="shellmenu_36" href="https://Graph.microsoft.io/en-us/docs" ms.title='Build_DeveloperCenters_MicrosoftGraph'>Microsoft Graph</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_VisualStudio'>
+                                                            <a id="shellmenu_37" href="https://www.visualstudio.com/vs/getting-started/" ms.title='Build_DeveloperCenters_VisualStudio'>Visual Studio</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_VisualStudioTeamServices'>
+                                                            <a id="shellmenu_38" href="https://www.visualstudio.com/docs/overview" ms.title='Build_DeveloperCenters_VisualStudioTeamServices'>Visual Studio Team Services</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_Windows'>
+                                                            <a id="shellmenu_39" href="https://docs.microsoft.com/en-us/windows" ms.title='Build_DeveloperCenters_Windows'>Windows</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_Office'>
+                                                            <a id="shellmenu_40" href="https://dev.office.com/docs" ms.title='Build_DeveloperCenters_Office'>Office</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_DeveloperCenters_AllDeveloperCenters'>
+                                                            <a id="shellmenu_41" href="https://developer.microsoft.com/en-us/ " ms.title='Build_DeveloperCenters_AllDeveloperCenters'>All Developer Centers</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li ms.cmpnm='Learn_TechNet'>
+                                                    <a id="shellmenu_42" href="https://technet.microsoft.com" ms.title='Learn_TechNet'>TechNet</a>
+                                                </li>
+                                                <li ms.cmpnm='Learn_MicrosoftDeveloperNetwork'>
+                                                    <a id="shellmenu_43" href="https://msdn.microsoft.com" ms.title='Learn_MicrosoftDeveloperNetwork'>Microsoft Developer Network</a>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Build_TechCenters'>
+                                                    <button id="ITTechCenters-navigation" aria-expanded="false" ms.title='Build_TechCenters' ms.interactiontype='14'>IT TechCenters</button>
+                                                    <ul aria-labelledby="ITTechCenters-navigation" aria-hidden="true" ms.cmpnm='Build_TechCenters'>
+                                                        <li ms.cmpnm='TechCenter_WindowsTechCenter'>
+                                                            <a id="shellmenu_45" href="https://technet.microsoft.com/windows" ms.title='TechCenter_WindowsTechCenter'>Windows IT Center</a>
+                                                        </li>
+                                                        <li ms.cmpnm='TechCenter_Office365forITpros'>
+                                                            <a id="shellmenu_46" href="https://technet.microsoft.com/en-us/office/dn788774" ms.title='TechCenter_Office365forITpros'>Office 365 for IT Pros</a>
+                                                        </li>
+                                                        <li ms.cmpnm='TechCenter_AllTechcenters'>
+                                                            <a id="shellmenu_47" href="https://technet.microsoft.com/en-us/bb421517.aspx?wt.svl=more_centers_link" ms.title='TechCenter_AllTechcenters'>All IT TechCenters</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Build_Downloads'>
+                                                    <button id="Downloads-navigation" aria-expanded="false" ms.title='Build_Downloads' ms.interactiontype='14'>Downloads</button>
+                                                    <ul aria-labelledby="Downloads-navigation" aria-hidden="true" ms.cmpnm='Build_Downloads'>
+                                                        <li ms.cmpnm='Build_Downloads_MicrosoftDownloadCenter'>
+                                                            <a id="shellmenu_49" href="https://www.microsoft.com/en-us/download/developer-tools.aspx" ms.title='Build_Downloads_MicrosoftDownloadCenter'>Microsoft Download Center</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_Downloads_Microsoft Azure'>
+                                                            <a id="shellmenu_50" href="https://azure.microsoft.com/en-us/downloads/" ms.title='Build_Downloads_Microsoft Azure'>Microsoft Azure</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_Downloads_VisualStudio'>
+                                                            <a id="shellmenu_51" href="https://www.visualstudio.com/downloads/" ms.title='Build_Downloads_VisualStudio'>Visual Studio</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_Downloads_SDKS'>
+                                                            <a id="shellmenu_52" href="https://msdn.microsoft.com/en-us/microsoft-sdks-msdn" ms.title='Build_Downloads_SDKS'>SDKs</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Build_Downloads_Windows'>
+                                                            <a id="shellmenu_53" href="https://developer.microsoft.com/en-us/windows/downloads " ms.title='Build_Downloads_Windows'>Windows</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Build_Samples'>
+                                                    <button id="Codesamples-navigation" aria-expanded="false" ms.title='Build_Samples' ms.interactiontype='14'>Code samples</button>
+                                                    <ul aria-labelledby="Codesamples-navigation" aria-hidden="true" ms.cmpnm='Build_Samples'>
+                                                        <li ms.cmpnm='CodeSamples_Office'>
+                                                            <a id="shellmenu_55" href="https://dev.office.com/code-samples" ms.title='CodeSamples_Office'>Office</a>
+                                                        </li>
+                                                        <li ms.cmpnm='CodeSamples_MicrosoftGraph'>
+                                                            <a id="shellmenu_56" href="https://graph.microsoft.io/en-us/code-samples-and-sdks" ms.title='CodeSamples_MicrosoftGraph'>Microsoft Graph</a>
+                                                        </li>
+                                                        <li ms.cmpnm='CodeSamples_MSDN'>
+                                                            <a id="shellmenu_57" href="https://code.msdn.microsoft.com/" ms.title='CodeSamples_MSDN'>MSDN</a>
+                                                        </li>
+                                                        <li ms.cmpnm='CodeSamples_Azure'>
+                                                            <a id="shellmenu_58" href="https://azure.microsoft.com/en-us/resources/samples/" ms.title='CodeSamples_Azure'>Azure</a>
+                                                        </li>
+                                                        <li ms.cmpnm='CodeSamples_Windows'>
+                                                            <a id="shellmenu_59" href="https://developer.microsoft.com/en-us/windows/samples" ms.title='CodeSamples_Windows'>Windows</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li ms.cmpnm='documentation_powershell_scripts'>
+                                                    <a id="shellmenu_60" href="https://technet.microsoft.com/scriptcenter" ms.title='documentation_powershell_scripts'>PowerShell scripts</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="c-uhf-menu js-nav-menu">
+                                            <button id="Resources-navigation" aria-expanded="false" aria-haspopup="true" ms.title='Resources ' ms.interactiontype='14' style="white-space:nowrap">Resources</button>
+                                            <ul aria-labelledby="Resources-navigation" aria-hidden="true" ms.cmpnm='Resources '>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Connect_Blogs'>
+                                                    <button id="Blogs-navigation" aria-expanded="false" ms.title='Connect_Blogs' ms.interactiontype='14'>Blogs</button>
+                                                    <ul aria-labelledby="Blogs-navigation" aria-hidden="true" ms.cmpnm='Connect_Blogs'>
+                                                        <li ms.cmpnm='Connect_Blogs_MicrosoftAzure'>
+                                                            <a id="shellmenu_63" href="https://azure.microsoft.com/en-us/blog/" ms.title='Connect_Blogs_MicrosoftAzure'>Microsoft Azure</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Connect_Blogs_VisualStudio'>
+                                                            <a id="shellmenu_64" href="https://blogs.msdn.microsoft.com/visualstudio/" ms.title='Connect_Blogs_VisualStudio'>Visual Studio</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Connect_Blogs_VisualStudioTeamServices'>
+                                                            <a id="shellmenu_65" href="https://blogs.msdn.microsoft.com/visualstudioalm/" ms.title='Connect_Blogs_VisualStudioTeamServices'>Visual Studio Team Services </a>
+                                                        </li>
+                                                        <li ms.cmpnm='Connect_Blogs_DevloperTools'>
+                                                            <a id="shellmenu_66" href="https://blogs.msdn.microsoft.com/developer-tools/" ms.title='Connect_Blogs_DevloperTools'>Developer tools</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Connect_Blogs_OfficeDevBlog'>
+                                                            <a id="shellmenu_67" href="https://dev.office.com/blogs" ms.title='Connect_Blogs_OfficeDevBlog'>Office Dev Blog</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Connect_Blogs_ServerandManagement'>
+                                                            <a id="shellmenu_68" href="https://blogs.technet.microsoft.com/server-management/" ms.title='Connect_Blogs_ServerandManagement'>Server &amp; management</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Connect_Blogs_Windows'>
+                                                            <a id="shellmenu_69" href="https://blogs.windows.com/buildingapps/ " ms.title='Connect_Blogs_Windows'>Windows</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Resources_CommunityandForums'>
+                                                    <button id="Community&amp;Forums-navigation" aria-expanded="false" ms.title='Resources_CommunityandForums' ms.interactiontype='14'>Community &amp; Forums</button>
+                                                    <ul aria-labelledby="Community&amp;Forums-navigation" aria-hidden="true" ms.cmpnm='Resources_CommunityandForums'>
+                                                        <li ms.cmpnm='CommunityandForums_Developers'>
+                                                            <a id="shellmenu_71" href="https://social.msdn.microsoft.com/Forums/en-US/home" ms.title='CommunityandForums_Developers'>Developers</a>
+                                                        </li>
+                                                        <li ms.cmpnm='CommunityandForums_Technet'>
+                                                            <a id="shellmenu_72" href="https://social.technet.microsoft.com/Forums/en-US/home" ms.title='CommunityandForums_Technet'>TechNet</a>
+                                                        </li>
+                                                        <li ms.cmpnm='CommunityandForums_MicrosoftTechCommunity'>
+                                                            <a id="shellmenu_73" href="https://techcommunity.microsoft.com/" ms.title='CommunityandForums_MicrosoftTechCommunity'>Microsoft Tech Community</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Connect_CommunityandForums'>
+                                                    <button id="Subscriptions-navigation" aria-expanded="false" ms.title='Connect_CommunityandForums' ms.interactiontype='14'>Subscriptions</button>
+                                                    <ul aria-labelledby="Subscriptions-navigation" aria-hidden="true" ms.cmpnm='Connect_CommunityandForums'>
+                                                        <li ms.cmpnm='Subscriptions_VisualStudioMSDNSubscriptions'>
+                                                            <a id="shellmenu_75" href="https://my.visualstudio.com/Benefits?wt.mc_id=o~msft~UHF&amp;campaign=o~msft~UHF" ms.title='Subscriptions_VisualStudioMSDNSubscriptions'>Visual Studio (MSDN) subscriptions</a>
+                                                        </li>
+                                                        <li ms.cmpnm='Subscriptions_ITProCloudEssentials'>
+                                                            <a id="shellmenu_76" href="https://www.microsoft.com/cloudessentials" ms.title='Subscriptions_ITProCloudEssentials'>Microsoft Cloud Essentials</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="f-sub-menu js-nav-menu" ms.cmpnm='Resources_Training'>
+                                                    <button id="Training-navigation" aria-expanded="false" ms.title='Resources_Training' ms.interactiontype='14'>Training</button>
+                                                    <ul aria-labelledby="Training-navigation" aria-hidden="true" ms.cmpnm='Resources_Training'>
+                                                        <li ms.cmpnm='Training_MicrosoftVirtualAcademy'>
+                                                            <a id="shellmenu_78" href="https://mva.microsoft.com/" ms.title='Training_MicrosoftVirtualAcademy'>Microsoft Virtual Academy </a>
+                                                        </li>
+                                                        <li ms.cmpnm='Training_ITProCareerCenter'>
+                                                            <a id="shellmenu_79" href="https://www.microsoft.com/itprocareercenter " ms.title='Training_ITProCareerCenter'>IT Pro Career Center</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li ms.cmpnm='Resources_TechNetEvaluationCenter'>
+                                                    <a id="shellmenu_80" href="https://www.microsoft.com/evalcenter/" ms.title='Resources_TechNetEvaluationCenter'>TechNet Evaluation Center</a>
+                                                </li>
+                                                <li ms.cmpnm='Connect_Channel9'>
+                                                    <a id="shellmenu_81" href="https://channel9.msdn.com/" ms.title='Connect_Channel9'>Channel 9</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                            @*<div ms.cmpgrp='Header actions'>
+                                    <div id="meControl" class="c-me" ms.cmpgrp='Me Control'>
+                                        <div class="msame_Header msame_unauth" style="height:48px;line-height:48px;">
+                                            <div class="msame_Header">
+                                                <a class="msame_Header_name msame_TxtTrunc" style="white-space:nowrap;" href="/en-US/Account/SignIn"><div id="userSignIn" class="msame_Header_name">Sign in</div></a>
+                                            </div>
+                                            <div class="msame_Header_chev"></div>
+                                        </div>
+                                    </div>
+                                    <style>
+                                        .msame_Header {
+                                            border: 1px solid transparent;
+                                            border-bottom-style: none;
+                                            display: inline-block;
+                                            font-size: 14px;
+                                            height: 48px;
+                                            min-width: 100px;
+                                            width: 100%
+                                        }
+
+                                        .msame_Header_name {
+                                            color: #505050;
+                                            display: inline-block;
+                                            font-size: 86%;
+                                            line-height: 48px;
+                                            max-width: 160px;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            vertical-align: top;
+                                            white-space: nowrap;
+                                            padding: 0 12px
+                                        }
+                                    </style>
+                                </div>*@
+                        </div>
+                    </div>
+                    <div class="theme-dark brand-blue js-cat-head" itemprop="brand" itemscope="itemscope" itemtype="http://schema.org/Brand" ms.cmpgrp='UHF category nav'>
+                        <div>
+                            <a id="uhfCatLogo" class="c-logo" href="/" aria-label="Microsoft BizSpark" itemprop="url" ms.title='Microsoft BizSpark'>
+                                <span>Microsoft BizSpark Support</span>
+                            </a>
+                            @{ BizSparkSupport.DAL.User user = (BizSparkSupport.DAL.User)HttpContext.Current.Session["USER"]; }
+                            @if (user != null)
+                            {
+                                if (user.VerificationToken == null)
+                                {
+                                    <span class="noti glyphicon glyphicon-bell"><span class="count">&nbsp;</span></span>
+                                        <div class="noti-content">
+                                            <div class="noti-top-arrow"></div>
+                                            <ul id="notiContent"></ul>
+                                        </div>
+                                }
+                                else
+                                {
+                                    <span class="noti1 glyphicon glyphicon-bell"><span class="count1">&nbsp;</span></span>
+                                    <div class="noti-content1">
+                                        <div class="noti-top-arrow1"></div>
+                                        <ul id="notiContent1"></ul>
+                                    </div>
+                                }
+                            }
+                            <button class="c-action-trigger c-glyph glyph-chevron-left" ms.title='Previous'></button>
+                            <button class="c-action-trigger c-glyph glyph-chevron-right" ms.title='Next'></button>
+                            <nav id="uhf-c-nav" role="navigation">
+                                
+                                @if (user == null)
+                                {
+                                    <a id="appMenuLogIn" class=" c-uhf-nav-link" href="/User/Login" ms.title='appMenuLogIn'>Log In</a>
+                                    <a id="appMenuSignUp" class=" c-uhf-nav-link" href="/StartUp/Code" ms.title='appMenuSignUp'>Sign Up</a>
+                                    <a id="appMenuEmpLogIn" class=" c-uhf-nav-link" href="/Admin/Login/Login" ms.title='appMenuEmpLogIn'>Employee Log In</a>
+                                }
+                                else
+                                {
+                                    <a id="appMenuSignUp" class=" c-uhf-nav-link" href="/User/Logout" ms.title='appMenuSignUp'>Log Out</a>
+                                }
+
+                                @*<div class="c-uhf-menu js-nav-menu">
+                                        <button id="appMenuAboutBizSpark" aria-expanded="false" aria-haspopup="true" ms.title='appMenuAboutBizSpark'>About BizSpark</button>
+                                        <ul class="" aria-labelledby="appMenuAboutBizSpark" aria-hidden="true" ms.cmpnm='appMenuAboutBizSpark'>
+                                            <li ms.cmpnm='appMenuBizSparkFAQ'>
+                                                <a id="appMenuBizSparkFAQ" href="/About/FAQ" ms.title='appMenuBizSparkFAQ'>BizSpark FAQ</a>
+                                            </li>
+                                            <li ms.cmpnm='appMenuBizSparkGraduation'>
+                                                <a id="appMenuBizSparkGraduation" href="/About/Graduation" ms.title='appMenuBizSparkGraduation'>BizSpark Graduation</a>
+                                            </li>
+                                            <li ms.cmpnm='appMenuBizSparkPlus'>
+                                                <a id="appMenuBizSparkPlus" href="/About/Plus" ms.title='appMenuBizSparkPlus'>BizSpark Plus</a>
+                                            </li>
+                                            <li ms.cmpnm='appMenuOffers'>
+                                                <a id="appMenuOffers" href="/About/Offers" ms.title='appMenuOffers'>Offers</a>
+                                            </li>
+                                        </ul>
+                                    </div>*@
+                                
+
+                                @*<span class="fa fa-envelope"><span class="countm">&nbsp;</span></span>
+                                    <div class="msg-content">
+                                        <div class="msg-top-arrow"></div>
+                                        <ul id="msgContent"></ul>
+                                    </div>*@
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </section>
+    <!-- Old nav bar for reference -->
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("BizSpark Support", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+    <main>
+        @RenderBody()
+    </main>
+    <!-- UHF FOOTER -->
+    <section id="footerArea" data-m='{"cN":"footerArea","cT":"Area_coreuiArea","id":"a2Body","sN":2,"aN":"Body"}'>
+        <div id="footerRegion" data-region-key="footerregion" data-m='{"cN":"footerRegion","cT":"Region_coreui-region","id":"r1a2","sN":1,"aN":"a2"}'>
+            <div id="footerUniversalFooter" data-m='{"cN":"footerUniversalFooter","cT":"Module_coreui-universalfooter","id":"m1r1a2","sN":1,"aN":"r1a2"}' data-module-id="Category|footerRegion|footerRegion|footerUniversalFooter|coreui-universalfooter">
+                <footer id="uhf-footer" class="c-universal-footer context-uhf" data-uhf-greenid="false" data-footer-footprint="en-us/MSBizSpark/MSBizSparkFooter" ms.pgarea='Uhf footer'>
+                    <nav ms.cmpgrp='Footer nav'>
+                        <div>
+                            <div ms.cmpnm='Popular'>
+                                <h6 class="c-heading-4">
+                                    Popular
+                                </h6>
+                                <ul class="c-list f-bare">
+                                    <li>
+                                        <a class="c-hyperlink" href="https://developer.microsoft.com/en-us/windows" ms.title='Popular_WindowsDevCenter'>Windows Dev Center</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://azure.microsoft.com/" ms.title='Popular_MicrosoftAzure'>Microsoft Azure</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.visualstudio.com/" ms.title='Popular_MicrosoftVisualStudio'>Microsoft Visual Studio </a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://dev.office.com/" ms.title='Popular_OfficeDevCenter'>Office Dev Center</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.asp.net/" ms.title='Popular_asp.net '>ASP.NET</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.iis.net/" ms.title='Popular_IIS.net'>IIS.NET</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div ms.cmpnm='Learning Resources'>
+                                <h6 class="c-heading-4">Learning Resources</h6>
+                                <ul class="c-list f-bare">
+                                    <li>
+                                        <a class="c-hyperlink" href="https://channel9.msdn.com/" ms.title='LearningResources_Channel9'>Channel 9</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://developer.microsoft.com/en-us/windows/develop/app-development-video" ms.title='LearningResources_WindowsDevelopmentVideos'>Windows development videos</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://mva.microsoft.com/" ms.title='LearningResources_MicrosoftVirtualAcademy'>Microsoft Virtual Academy </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div ms.cmpnm='Programs'>
+                                <h6 class="c-heading-4">Programs</h6>
+                                <ul class="c-list f-bare">
+                                    <li>
+                                        <a class="c-hyperlink" href="https://developer.microsoft.com/en-us/store/register" ms.title='Programs_AppDeveloperAgreement'>Microsoft developer program</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://insider.windows.com/" ms.title='Programs_WindowsInsiderProgram'>Windows Insider program</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="http://www.microsoftaffiliates.com/" ms.title='Programs_MicrosoftAffliateProgram'>Microsoft Affiliate program </a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/bizspark" ms.title='Programs_BizSparkforStartups'>BizSpark (for startups) </a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://msdn.microsoft.com/en-us/imagine/imagine-home" ms.title='Programs_MicrosoftImagineforStudents'>Microsoft Imagine</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div ms.cmpnm='For IT Pros'>
+                                <h6 class="c-heading-4">For IT Pros</h6>
+                                <ul class="c-list f-bare">
+                                    <li>
+                                        <a class="c-hyperlink" href="https://powerbi.microsoft.com/en-us" ms.title='ForITPros_MicrosoftPowerBI'>Microsoft Power BI</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/server-cloud/products/sql-server/overview.aspx" ms.title='ForITPros_MicrosoftSQLServer'>Microsoft SQL Server </a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/server-cloud/internet-of-things/overview.aspx" ms.title='ForITPros_InternetofThings'>Internet of Things </a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/server-cloud/operations-management-suite/overview.aspx" ms.title='ForITPros_OperationsManagementSuite'>Operations Management Suite </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div ms.cmpnm='Values'>
+                                <h6 class="c-heading-4">Values</h6>
+                                <ul class="c-list f-bare">
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/diversity/" ms.title='Values_DiversityandInclusion'>Diversity and inclusion</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/accessibility/home" ms.title='Values_Accessility'>Accessibility</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/education" ms.title='Values_MicrosoftinEducation'>Microsoft in education</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/about/philanthropies" ms.title='Values_CorporateCitizenship'>Microsoft philanthropies</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/about/csr" ms.title='Values_CorporateSocialResponsibility'>Corporate social responsibility</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://privacy.microsoft.com/en-us" ms.title='Values_PrivacyatMicrosoft'>Privacy at Microsoft</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div ms.cmpnm='Company'>
+                                <h6 class="c-heading-4">Company</h6>
+                                <ul class="c-list f-bare">
+                                    <li>
+                                        <a class="c-hyperlink" href="https://careers.microsoft.com/" ms.title='Company_Careers'>Careers</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/about" ms.title='Company_AboutMicrosoft'>About Microsoft</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://news.microsoft.com/" ms.title='Company_CompanyNews'>Company news</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/investor/default.aspx" ms.title='Company_Investors'>Investors</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://microsoft.com/research" ms.title='Company_Research'>Research</a>
+                                    </li>
+                                    <li>
+                                        <a class="c-hyperlink" href="https://www.microsoft.com/en-us/sitemap.aspx" ms.title='Company_SiteMap'>Site map</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <section>
+                        <ul role="contentinfo" class="c-list f-bare" ms.cmpgrp='Corp links'>
+                            <li>
+                                <a class="c-hyperlink" href="https://go.microsoft.com/?linkid=2028325" ms.title='Footer_ContactUs'>Contact us</a>
+                            </li>
+                            <li>
+                                <a class="c-hyperlink" href="https://go.microsoft.com/fwlink/?LinkId=521839" ms.title='Footer_PrivacyandCookies'>Privacy &amp; cookies </a>
+                            </li>
+                            <li>
+                                <a class="c-hyperlink" href="https://go.microsoft.com/fwlink/?LinkID=206977" ms.title='Footer_TermsOfUse'>Terms of use</a>
+                            </li>
+                            <li>
+                                <a class="c-hyperlink" href="https://www.microsoft.com/trademarks" ms.title='Footer_Trademarks'>Trademarks</a>
+                            </li>
+                            <li>
+                                <a class="c-hyperlink" href="https://choice.microsoft.com" ms.title='Footer_AboutourAds'>About our ads</a>
+                            </li>
+                            <li>&#169; Microsoft @DateTime.Now.Year</li>
+                        </ul>
+                    </section>
+                </footer>
+                @*//////////////////////////startup/////////////////////*@
+                <style>
+                    .c-modal-link {
+                        cursor: pointer;
+                    }
+                </style>
+
+                <style type="text/css">
+                    /*Added css for design notification area, you can design by your self*/
+                    /* COPY css content from youtube video description*/
+                    .noti-content {
+                        position: fixed;
+                        right: 100px;
+                        background: #e5e5e5;
+                        border-radius: 4px;
+                        top: 47px;
+                        width: 250px;
+                        display: none;
+                        border: 1px solid #9E988B;
+                    }
+
+                    ul#notiContent {
+                        max-height: 200px;
+                        overflow: auto;
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                        ul#notiContent li {
+                            margin: 3px;
+                            padding: 6px;
+                            background: #fff;
+                            color: black;
+                        }
+
+                    .noti-top-arrow {
+                        border-color: transparent;
+                        border-bottom-color: #F5DEB3;
+                        border-style: dashed dashed solid;
+                        border-width: 0 8.5px 8.5px;
+                        position: absolute;
+                        right: 32px;
+                        top: -8px;
+                    }
+
+                    span.noti {
+                        color: #FF2323;
+                        margin: 15px;
+                        position: fixed;
+                        right: 100px;
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+
+                    span.count {
+                        position: relative;
+                        top: -3px;
+                    }
+
+
+                    .noti-content1 {
+                        position: fixed;
+                        right: 100px;
+                        background: #e5e5e5;
+                        border-radius: 4px;
+                        top: 47px;
+                        width: 250px;
+                        display: none;
+                        border: 1px solid #9E988B;
+                    }
+
+                    ul#notiContent1 {
+                        max-height: 200px;
+                        overflow: auto;
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                        ul#notiContent1 li {
+                            margin: 3px;
+                            padding: 6px;
+                            background: #fff;
+                            color: black;
+                        }
+
+                    .noti-top-arrow1 {
+                        border-color: transparent;
+                        border-bottom-color: #F5DEB3;
+                        border-style: dashed dashed solid;
+                        border-width: 0 8.5px 8.5px;
+                        position: absolute;
+                        right: 32px;
+                        top: -8px;
+                    }
+
+                    span.noti1 {
+                        color: #FF2323;
+                        margin: 15px;
+                        position: fixed;
+                        right: 100px;
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+
+                    span.count1 {
+                        position: relative;
+                        top: -3px;
+                    }
+
+                </style>
+
+                @* /////////////////////////////////// *@
+
+
+            </div>
+        </div>
+    </section>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"> </script>
+    <script src="~/Scripts/star-rating.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.2/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.1.1/js/responsive.bootstrap.min.js"></script>
+
+    @* Add Jquery Library *@
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.1.1.js"></script>
+    <!--Reference the autogenerated SignalR hub script.-->
+    <script src="~/signalr/hubs"></script>
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @* Add css  *@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+   
+    @* Add jquery code for Get Notification & setup signalr *@
+    <script type="text/javascript">
+                            
+$(function () {
+                                                        var msg = "";
+            // Click on notification icon for show notification
+              $('span.noti').click(function (e) {
+         
+                      e.stopPropagation();
+
+                      if ($('.noti-content').css('display') == 'none') {
+                          // alert("not opened");
+                          $('.noti-content').show();
+                          var count = 0;
+                          count = parseInt($('span.count').html()) || 0;
+                          //  alert("counter:" + count);
+                          //only load notification if not already loaded
+                          if (count > 0) {
+                              updateNotification();
+                          }
+                          $('span.count', this).html('&nbsp;');
+                      }
+                      else {
+                          $('.noti-content').hide();
+                      }
+                  
+                                                })
+            // hide notifications
+            $('html').click(function () {
+                $('.noti-content').hide();
+                                                })
+            // update notification
+            function updateNotification() {
+                //   alert("get");
+                $('#notiContent').empty();
+                $('#notiContent').append($('<li>Loading...</li>'));
+                $.ajax({
+                                                        type: 'GET',
+                    url: '/Admin/Support/GetNotifications',
+                    success: function (response) {
+                        //  alert("success");
+                        $('#notiContent').empty();
+                                                            if (response.length == 0) {
+                            $('#notiContent').append($('<li>No New Cases</li>'));
+                                                            }
+                        $.each(response, function (index, value) {
+
+                            //$('#notiContent').append($('<li style="background-color: ' + value.PriorityColor + '" > New Case from : ' + value.StartUpName + ' arives</li>'));
+                            
+                            $('#notiContent').append($('<li style="background-color: ' + value.PriorityColor + '">' + value.listText + '<br> <a class="c-hyperlink" href ="/Admin/Support/CaseDetails/?caseId=' + value.CaseID + '"> Show Case </a> </li>'));
+
+                                                            });
+                                                        },
+                    error: function (error) {
+                                                            alert("error" + error);
+                                                        }
+                                                    })
+            }
+                                                // update notification count
+                                                function updateNotificationCount() {
+                                                    var count = 0;
+                                                    count = parseInt($('span.count').html()) || 0;
+                                                    //   alert("before"+count);
+                                                    count++;
+                //   alert("after"+count);
+                $('span.count').html(count);
+                                                }
+                                                // signalr js code for start hub and send receive notification
+                                                var notificationHub = $.connection.notificationsHub;
+            $.connection.hub.start("~/signalr/hubs").done(function () {
+             //   alert("Notification hub started");
+                $('#notiContent').append($('<li>See New Cases</li>'));
+
+                                                });
+            //signalr method for push server message to client
+            notificationHub.client.notify = function (message) {
+                                                    msg = message;
+                                                    if (message && message.toLowerCase() == "added" || "added1") {
+                                                        updateNotificationCount();
+                    $('.noti-content').hide();
+                                                    }
+
+                                                }
+                                            })
+    </script>
+    <script type="text/javascript">
+
+        $(function () {
+            var msg = "";
+            // Click on notification icon for show notification
+            $('span.noti1').click(function (e) {
+                e.stopPropagation();
+
+                if ($('.noti-content1').css('display') == 'none') {
+                    // alert("not opened");
+                    $('.noti-content1').show();
+                    var count = 0;
+                    count = parseInt($('span.count1').html()) || 0;
+                    //  alert("counter:" + count);
+                    //only load notification if not already loaded
+                    if (count > 0) {
+                        updateNotification();
+                    }
+                    $('span.count1', this).html('&nbsp;');
+                }
+                else {
+                    $('.noti-content1').hide();
+                }
+
+
+            })
+            // hide notifications
+            $('html').click(function () {
+                $('.noti-content1').hide();
+            })
+            // update notification
+            function updateNotification() {
+                //   alert("get");
+                $('#notiContent1').empty();
+                $('#notiContent1').append($('<li>Loading...</li>'));
+                $.ajax({
+                    type: 'GET',
+                    url: '/Case/GetNotifications',
+                    success: function (response) {
+                        //  alert("success");
+                        $('#notiContent1').empty();
+                        if (response.length == 0) {
+                            $('#notiContent1').append($('<li>No New Messages</li>'));
+                        }
+                        $.each(response, function (index, value) {
+
+                            //$('#notiContent').append($('<li style="background-color: ' + value.PriorityColor + '" > New Case from : ' + value.StartUpName + ' arives</li>'));
+
+                            $('#notiContent1').append($('<li style="background-color: ' + value.PriorityColor + '">' + value.listText + '<br> <a class="c-hyperlink" href ="/Case/CaseDetails/' + value.CaseID + '"> Show Case </a> </li>'));
+
+                        });
+                    },
+                    error: function (error) {
+                        alert("error" + error);
+                    }
+                })
+            }
+            // update notification count
+            function updateNotificationCount() {
+                var count = 0;
+                count = parseInt($('span.count1').html()) || 0;
+                //   alert("before"+count);
+                count++;
+                //   alert("after"+count);
+                $('span.count1').html(count);
+            }
+            // signalr js code for start hub and send receive notification
+            var notificationHub = $.connection.messagesHub;
+            $.connection.hub.start("~/signalr/hubs").done(function () {
+                //   alert("Notification hub started");
+                $('#notiContent1').append($('<li>See New Messages</li>'));
+
+            });
+            //signalr method for push server message to client
+            notificationHub.client.notify = function (message) {
+                msg = message;
+                if (message && message.toLowerCase() == "added2") {
+                    updateNotificationCount();
+                    $('.noti-content1').hide();
+                }
+
+            }
+        })
+    </script>
+
+
+    
+    <script>
+        $(document).ready(function () {
+                                            var table = $('#example').DataTable({
+                                                responsive: true
+                                            });
+                                            new $.fn.dataTable.FixedHeader(table);
+                                        });
+    </script>
+
+    @RenderSection("scripts", required: false)
+    @RenderSection("timer", required: false)
+    @RenderSection("Rating", required: false)
+    @RenderSection("timer2", required: false)
+</body>
+</html>

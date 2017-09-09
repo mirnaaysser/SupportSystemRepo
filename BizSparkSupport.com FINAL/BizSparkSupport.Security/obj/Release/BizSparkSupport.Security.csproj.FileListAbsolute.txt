@@ -1,0 +1,5 @@
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Security\bin\Release\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Security\bin\Release\AppFactory.Security.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Security\obj\Release\BizSparkSupport.Security.csprojResolveAssemblyReference.cache
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Security\obj\Release\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Security\obj\Release\AppFactory.Security.pdb

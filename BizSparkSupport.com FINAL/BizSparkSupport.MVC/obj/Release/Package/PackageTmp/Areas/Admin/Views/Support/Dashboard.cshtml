@@ -1,0 +1,76 @@
+﻿@model BizSparkSupport.MVC.Areas.Admin.ViewModels.Dashboard
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+
+<div class="container" style="padding-top:50px;">
+    <div class="row">
+        <ul class="nav nav-pills nav-stacked col-md-3">
+            <li class="active"><a href="#Cases" data-toggle="tab">Dashboard</a></li>
+            <li><a href="#History" data-toggle="tab">History</a></li>
+            <li><a href="#Account" data-toggle="tab">Account Settings</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade in active col-md-8" id="Cases">
+                <div class="panel-group">
+                    <div class="panel-success">
+                        <div class="panel-heading">
+                            @Html.DisplayName("Assigned Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.Assigned.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.Assigned)
+                            }
+                        </div>
+                        <div class="panel-footer">
+                            @Html.ActionLink("Show More..", "GetAssignedList", "Support")
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="panel-info">
+                        <div class="panel-heading">
+                            @Html.DisplayName("Open Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.Open.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.Open)
+                            }
+                        </div>
+                        <div class="panel-footer">
+                            @Html.ActionLink("Show More..", "GetOpenList", "Support")
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="panel-danger">
+                        <div class="panel-heading">
+                            @Html.DisplayName("New Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.New.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.New)
+                            }
+                        </div>
+                        <div class="panel-footer">
+                            @Html.ActionLink("Show More..", "GetNewList", "Support")
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade col-md-8" id="History">
+                @Html.Partial("HistoryPartial" , Model.Solved)
+            </div>
+            <div class="tab-pane fade col-md-8" id="Account">
+                @Html.Partial("EditProfile", (BizSparkSupport.DAL.User)ViewBag.User)
+            </div>
+        </div>
+    </div>
+</div>

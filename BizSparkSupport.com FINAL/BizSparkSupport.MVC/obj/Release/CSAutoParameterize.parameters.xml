@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BizSparkSupportEntities-Web.config Connection String" description="BizSparkSupportEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/BizSparkSupportModel.csdl|res://*/BizSparkSupportModel.ssdl|res://*/BizSparkSupportModel.msl;provider=System.Data.SqlClient;provider connection string='data source=MIRNA-PC;initial catalog=&quot;SupportSystem V1.6&quot;;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Desktop\\AppFactory_SupportSystem\\TeamWork\\BizSparkSupport\.com\ -\ Hend\ 772017\\BizSparkSupport\.MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BizSparkSupportEntities']/@connectionString" />
+  </parameter>
+  <parameter name="sqlConString-Web.config Connection String" description="sqlConString Connection String used in web.config by the application to access the database." defaultValue="data source=MIRNA-PC;initial catalog=&quot;SupportSystem V1.6&quot;;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Desktop\\AppFactory_SupportSystem\\TeamWork\\BizSparkSupport\.com\ -\ Hend\ 772017\\BizSparkSupport\.MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sqlConString']/@connectionString" />
+  </parameter>
+</parameters>

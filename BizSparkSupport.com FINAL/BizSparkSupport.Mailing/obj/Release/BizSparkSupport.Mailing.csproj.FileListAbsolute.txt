@@ -1,0 +1,4 @@
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Release\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\bin\Release\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Release\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.Mailing\obj\Release\AppFactory.Email.pdb

@@ -1,0 +1,210 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Employee>
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2> Admin Dashboard</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#">Dashboard</a></li>
+                <li><a href="@Url.Action("Requests", "Admin")">Requests</a></li>
+                <li><a href="@Url.Action("Categories", "Admin")">Categories</a></li>
+                <li><a href="@Url.Action("Codes", "Admin")">Codes</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-9">
+            <div class="page-section third">
+                <!-- Tabbable Widget -->
+                <div class="tabbable paper-shadow relative" data-z="0.5">
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="app-student-profile.html"><i class="fa fa-fw fa-lock"></i> <span class="hidden-sm hidden-xs">Employees</span></a></li>
+                        <li><a href="~/Admin/Admin/Startups"><i class="fa fa-fw fa-credit-card"></i> <span class="hidden-sm hidden-xs">StartUps</span></a></li>
+                    </ul>
+                    <!-- // END Tabs -->
+
+
+                    <table class="table">
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Employee Username
+                            </th>
+
+                            <th>
+                                Reset Password
+                            </th>
+                            <th>
+                                Position
+                            </th>
+                            <th>
+                                More
+                            </th>
+                        </tr>
+                        @{
+                        int counter = 0;
+                        }
+                        @foreach (var item in Model)
+                    {
+                            <tr>
+                                <td>
+                                    @{counter = counter + 1;}
+                                    @Html.DisplayName((counter).ToString())
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.UserName)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("ResetPasword", "Admin",new { email=item.User.Email})" class="btn btn-link" )>Reset </a>
+                                </td>
+
+                                @if (item.RoleID == 1)
+                            {
+                                    <td>
+                                        Admin
+                                    </td>
+                            }
+                                @if (item.RoleID == 2)
+                            {
+                                    <td>
+                                        Admin of a category
+                                    </td>
+                            }
+                                @if (item.RoleID == 3)
+                            {
+                                    <td>
+                                        Employee
+                                    </td>
+                            }
+                                <td>
+                                    <a href="@Url.Action("ViewEmployee", "Admin",new { id=item.EmployeeID})" class="btn btn-info"> Show More </a>
+                                </td>
+
+                            </tr>
+                    }
+
+
+
+                    </table>
+                    <!-- Panes -->
+                    <!-- // END Panes -->
+                </div>
+                <!-- // END Tabbable Widget -->
+            </div>
+
+            <a class="btn btn-primary" data-toggle="modal" data-target=".employeemodal"><span class="glyphicon glyphicon-new-window"></span> New Employee </a>
+            <a class="btn btn-primary" data-toggle="modal" data-target=".categorymodal"><span class="glyphicon glyphicon-new-window"></span> New Category </a>
+
+
+            <div class="modal fade employeemodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title">New Employees</h4>
+                        </div>
+                        <div class="modal-body">
+                            @using (Html.BeginForm("NewEmployee", "Admin"))
+                        {
+                                <center><label for="Errors" id="spnMsg" style="color:Red"> </label></center>
+                                <div class="form-group">
+                                    <label for="inputUserName">User Name</label>
+                                    @Html.TextBox("Username", null, new { @class = "form-control", @type = "text", required = "required", id = "email" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputpassword">Password</label>
+                                    @Html.TextBox("Password", null, new { @class = "form-control", @type = "password", required = "required" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputpassword">Category</label>
+                                    @Html.DropDownList("Category", new SelectList(ViewBag.categories, "CategoryID", "CategoryName", "CategoryDescription"), "Please Select", new { @class = "form-control" })
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputpassword">Role</label>
+                                    @Html.DropDownList("Role", new SelectList(ViewBag.roles, "RoleID", "RoleName"), "Please Select", new { @class = "form-control" })
+                                </div>
+
+                                <button type="submit" class="btn btn-success" style="float:right" id="btnSubmit">Add</button>
+                        }
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade categorymodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                            <h4 class="modal-title">New Category</h4>
+                        </div>
+                        <div class="modal-body">
+                            @using (Html.BeginForm("NewCategory", "Admin"))
+                        {
+                                <div class="form-group">
+                                    <label for="inputUserName">Category Name</label>
+                                    @Html.TextBox("CategoryName", null, new { @class = "form-control", @type = "text", required = "required" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputpassword">CategoryDescription</label>
+                                    @Html.TextArea("Description", null, 10, 55, new { @class = "form-control" })
+                                    @*@Html.TextBox("", null, new { @class = "form-control", @type = "text", required = "required" })*@
+                                </div>
+
+                                <button type="submit" class="btn btn-success" style="float:right">Add</button>
+                        }
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/vendor/all.js"></script>
+<script src="js/app/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script>
+
+    $("#email").change(function () {
+        var email = $('#email').val().trim();
+        $.ajax({
+            type: "POST",
+            url: "/Admin/CheckEmail",
+            data: '{email: "' + email + '" }',
+            cache: false,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                if (response == 0) {
+                    $("#spnMsg").html('User name Already exists');
+
+                    $("#btnSubmit").prop('disabled', true);
+                }
+                else {
+                    $("#spnMsg").html('');
+                    $("#btnSubmit").prop('disabled', false);
+                }
+            }
+        });
+      //  alert("Ok");
+    });
+</script>

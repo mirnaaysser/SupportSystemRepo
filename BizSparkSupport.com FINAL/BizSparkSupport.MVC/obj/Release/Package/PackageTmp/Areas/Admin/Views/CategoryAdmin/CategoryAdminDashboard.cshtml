@@ -1,0 +1,111 @@
+﻿@model BizSparkSupport.MVC.Areas.Admin.ViewModels.CatAdminDashboardVM
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <h2>Category Admin Dashboard</h2>
+    <div class="row">
+        <ul class="nav nav-pills nav-stacked col-md-3">
+            <li class="active"><a href="#Cases" data-toggle="tab">Cases</a></li>
+            <li><a href="#History" data-toggle="tab">History</a></li>
+            <li><a href="@Url.Action("AllEmployees", "CategoryAdmin")">All Employees</a></li>
+            @*<li><a href="#Account" data-toggle="tab">Account Settings</a></li>*@
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade in active col-md-8" id="Cases">
+                <div class="panel-group">
+                    <div class="panel-success">
+                        <div class="panel-heading">
+                            @Html.DisplayName("New Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.New.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.New)
+                            }
+                        </div>
+                        <div>
+                            @Html.ActionLink("Show More..", "GetNewList", "CategoryAdmin")
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="panel-info">
+                        <div class="panel-heading">
+                            @Html.DisplayName("Open Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.AssignedOpen.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.AssignedOpen)
+                            }
+                        </div>
+                        <div>
+                            @Html.ActionLink("Show More..", "GetOpenList", "CategoryAdmin")
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="panel-danger">
+                        <div class="panel-heading">
+                            @Html.DisplayName("Assigned Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.AssignedNotOpen.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.AssignedNotOpen)
+                            }
+                        </div>
+                        <div>
+                            @Html.ActionLink("Show More..", "GetAssignedList", "CategoryAdmin")
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="panel-warning">
+                        <div class="panel-heading">
+                            @Html.DisplayName("Escalated Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.Escalated.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.Escalated)
+                            }
+                        </div>
+                        <div>
+                            @Html.ActionLink("Show More..", "GetEscalatedList", "CategoryAdmin")
+                        </div>
+                    </div>
+                    <hr>
+                    @*<div class="panel-default">
+                        <div class="panel-heading">
+                            @Html.DisplayName("Closed Cases")
+                        </div>
+                        <div class="panel-body">
+                            @if (Model.Solved.FirstOrDefault() != null)
+                            {
+                                @Html.Partial("PartialList", Model.Solved)
+                            }
+                        </div>
+                        <div>
+                            @Html.ActionLink("Show More..", "GetNewList", "Support")
+                        </div>
+                    </div>*@
+                    <hr>
+                </div>
+            </div>
+            <div class="tab-pane fade col-md-8" id="History">
+                @Html.Partial("CategoryAdminHistoryPartial" , Model.Solved)
+            </div>
+            @*<div class="tab-pane fade col-md-8" id="AllEmployees">
+                @Html.Partial("AllEmployeesPartial")
+            </div>*@
+
+            @*<div class="tab-pane fade col-md-8" id="Account">
+                <p>Account Settings 
+            </div>*@
+        </div>
+    </div>
+</div>

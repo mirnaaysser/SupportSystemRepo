@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BizSparkSupportModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Case">
+    <Key>
+      <PropertyRef Name="CaseID" />
+    </Key>
+    <Property Name="CaseID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SubmissionDate" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="ClosedAt" Type="datetime2" Precision="7" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+    <Property Name="StartupID" Type="bigint" Nullable="false" />
+    <Property Name="PriorityID" Type="int" Nullable="false" />
+    <Property Name="StatusID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategoryDescription" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Code">
+    <Key>
+      <PropertyRef Name="CodeID" />
+    </Key>
+    <Property Name="CodeID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodeValue" Type="nvarchar" MaxLength="64" Nullable="false" />
+    <Property Name="UsedBefore" Type="bit" Nullable="false" />
+    <Property Name="ExpireAt" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Sent" Type="bit" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="bigint" Nullable="false" />
+    <Property Name="RoleID" Type="int" Nullable="false" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employee_Case">
+    <Key>
+      <PropertyRef Name="CaseID" />
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="CaseID" Type="bigint" Nullable="false" />
+    <Property Name="EmployeeID" Type="bigint" Nullable="false" />
+    <Property Name="OpenedAt" Type="datetime2" Precision="7" />
+    <Property Name="Rating" Type="float" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="AssignDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="FileID" />
+    </Key>
+    <Property Name="FileID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Content" Type="varbinary(max)" Nullable="false" />
+    <Property Name="CaseID" Type="bigint" Nullable="false" />
+    <Property Name="FileName" Type="varchar(max)" Nullable="false" />
+    <Property Name="SavedFileName" Type="varchar(max)" Nullable="false" />
+    <Property Name="FileType" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SenderID" Type="bigint" Nullable="false" />
+    <Property Name="ReceiverID" Type="bigint" Nullable="false" />
+    <Property Name="MessageContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CaseID" Type="bigint" Nullable="false" />
+    <Property Name="SubmissionDate" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Priority">
+    <Key>
+      <PropertyRef Name="PriorityID" />
+    </Key>
+    <Property Name="PriorityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PriorityName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PriorityColor" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RequestCode">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Startup">
+    <Key>
+      <PropertyRef Name="CompanyID" />
+    </Key>
+    <Property Name="CompanyID" Type="bigint" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="CompanyNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="Hash" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="RememberToken" Type="nvarchar" MaxLength="64" />
+    <Property Name="VerificationToken" Type="nvarchar" MaxLength="64" />
+    <Property Name="IsVerified" Type="bit" Nullable="false" />
+    <Property Name="CreatedAt" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Case_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Case" Type="Self.Case" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Case">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Case_Priority">
+    <End Role="Priority" Type="Self.Priority" Multiplicity="1" />
+    <End Role="Case" Type="Self.Case" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Priority">
+        <PropertyRef Name="PriorityID" />
+      </Principal>
+      <Dependent Role="Case">
+        <PropertyRef Name="PriorityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Case_Startup">
+    <End Role="Startup" Type="Self.Startup" Multiplicity="1" />
+    <End Role="Case" Type="Self.Case" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Startup">
+        <PropertyRef Name="CompanyID" />
+      </Principal>
+      <Dependent Role="Case">
+        <PropertyRef Name="StartupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Case_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Case" Type="Self.Case" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="Case">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Case_Case">
+    <End Role="Case" Type="Self.Case" Multiplicity="1" />
+    <End Role="Employee_Case" Type="Self.Employee_Case" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Case">
+        <PropertyRef Name="CaseID" />
+      </Principal>
+      <Dependent Role="Employee_Case">
+        <PropertyRef Name="CaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Case_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Employee_Case" Type="Self.Employee_Case" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Employee_Case">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_File_Case">
+    <End Role="Case" Type="Self.Case" Multiplicity="1" />
+    <End Role="File" Type="Self.File" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Case">
+        <PropertyRef Name="CaseID" />
+      </Principal>
+      <Dependent Role="File">
+        <PropertyRef Name="CaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_Case">
+    <End Role="Case" Type="Self.Case" Multiplicity="1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Case">
+        <PropertyRef Name="CaseID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="CaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="SenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_User1">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="ReceiverID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Startup_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Startup" Type="Self.Startup" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Startup">
+        <PropertyRef Name="CompanyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BizSparkSupportModelStoreContainer">
+    <EntitySet Name="Case" EntityType="Self.Case" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Code" EntityType="Self.Code" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee_Case" EntityType="Self.Employee_Case" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="File" EntityType="Self.File" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Priority" EntityType="Self.Priority" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RequestCode" EntityType="Self.RequestCode" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Startup" EntityType="Self.Startup" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Case_Category" Association="Self.FK_Case_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Case" EntitySet="Case" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Case_Priority" Association="Self.FK_Case_Priority">
+      <End Role="Priority" EntitySet="Priority" />
+      <End Role="Case" EntitySet="Case" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Case_Startup" Association="Self.FK_Case_Startup">
+      <End Role="Startup" EntitySet="Startup" />
+      <End Role="Case" EntitySet="Case" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Case_Status" Association="Self.FK_Case_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Case" EntitySet="Case" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Case_Case" Association="Self.FK_Employee_Case_Case">
+      <End Role="Case" EntitySet="Case" />
+      <End Role="Employee_Case" EntitySet="Employee_Case" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Case_Employee" Association="Self.FK_Employee_Case_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Employee_Case" EntitySet="Employee_Case" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Category" Association="Self.FK_Employee_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Role" Association="Self.FK_Employee_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_User" Association="Self.FK_Employee_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_File_Case" Association="Self.FK_File_Case">
+      <End Role="Case" EntitySet="Case" />
+      <End Role="File" EntitySet="File" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_Case" Association="Self.FK_Messages_Case">
+      <End Role="Case" EntitySet="Case" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_User" Association="Self.FK_Messages_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_User1" Association="Self.FK_Messages_User1">
+      <End Role="User" EntitySet="User" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Startup_User" Association="Self.FK_Startup_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Startup" EntitySet="Startup" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

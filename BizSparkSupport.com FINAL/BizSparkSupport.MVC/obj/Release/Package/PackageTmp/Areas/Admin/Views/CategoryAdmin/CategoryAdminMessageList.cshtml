@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Message>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Case.Subject)
+        </th>
+        <th>
+            @Html.DisplayName("Sender Email")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Case.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                @Ajax.ActionLink("Show Message", "ShowMessage", "CategoryAdmin", new { messageId = item.MessageID }, new AjaxOptions
+       {
+           HttpMethod = "GET",
+           InsertionMode = InsertionMode.Replace,
+           UpdateTargetId = "CurrentMessageDiv"
+       })
+
+                @*@Html.ActionLink("Details", "Details", new { id=item.MessageID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.MessageID })*@
+            </td>
+        </tr>
+    }
+</table>

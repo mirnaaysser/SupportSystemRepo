@@ -1,0 +1,920 @@
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\ApplicationInsights.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Owin.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\WebGrease.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\AppFactorySupportSystem saydala 2262017\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\ApplicationInsights.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Owin.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\WebGrease.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+H:\Desktop\AppFactory_SupportSystem\AppFactorySupportSystem\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\ApplicationInsights.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Owin.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\WebGrease.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\ApplicationInsights.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\csc.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\csi.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\EntityFramework.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Owin.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\PagedList.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\WebGrease.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\EntityFramework.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\PagedList.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+H:\Desktop\AppFactory_SupportSystem\TeamWork\BizSparkSupport.com - Hend 772017\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\ApplicationInsights.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Owin.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\WebGrease.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+C:\Users\hend\Documents\StartUp\MirNaTram\yarabYfta7mnMirna\yarabLogin\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\ApplicationInsights.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Owin.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\WebGrease.dll
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+D:\My Last\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\ApplicationInsights.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Owin.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\WebGrease.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+C:\Users\Khalafallah\Desktop\Projects\New folder\BizSparkSupport.com\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\ApplicationInsights.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\csc.exe
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\csc.exe.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\csc.rsp
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\csi.exe
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\csi.exe.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\csi.rsp
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Console.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Threading.Thread.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\vbc.exe
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\vbc.exe.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\vbc.rsp
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\BizSparkSupport.MVC.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Antlr3.Runtime.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\AppFactory.Email.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\AppFactory.Security.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\EntityFramework.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Owin.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Newtonsoft.Json.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Owin.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\PagedList.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\PagedList.Mvc.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Helpers.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Mvc.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Optimization.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Razor.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.WebPages.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\WebGrease.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\BizSparkSupport.DAL.dll.config
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\AppFactory.Email.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\AppFactory.Security.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\EntityFramework.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Owin.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\Newtonsoft.Json.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\PagedList.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\PagedList.Mvc.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Helpers.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Mvc.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Optimization.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.Razor.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.WebPages.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.csprojResolveAssemblyReference.cache
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.dll
+C:\Users\marma\Desktop\BizSparkSupport.com FINAL\BizSparkSupport.MVC\obj\Debug\BizSparkSupport.MVC.pdb

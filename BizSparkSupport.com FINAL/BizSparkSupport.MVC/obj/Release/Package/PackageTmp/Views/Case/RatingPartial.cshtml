@@ -1,0 +1,39 @@
+﻿@model BizSparkSupport.DAL.Employee_Case
+@if (Model.Rating == null)
+{
+using (Html.BeginForm("SubmitRating" , "Case" , FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.CaseID, "CaseID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.HiddenFor(model => model.CaseID)
+                @Html.ValidationMessageFor(model => model.CaseID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input id="input-21e" value="0" type="text" class="rating" data-min=0 data-max=5 data-step=0.5 data-size="xs"
+                   title="">
+                @Html.HiddenFor(model => model.Rating,new { id= "RatingHidden" } )
+            @*<input type="hidden" name="" id="RatingHidden" />*@
+        </div>
+
+        <div class="form-group">
+            <div class="modal-footer">
+                <input type="submit" value="Submit" class="btn btn-default pull-left" />
+                <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+}
+}else{
+    <p>You have already Submited Rating</p>
+    <p>Last Rating = @Model.Rating</p>
+}
+

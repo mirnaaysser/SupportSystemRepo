@@ -1,0 +1,131 @@
+﻿@model IEnumerable<BizSparkSupport.DAL.Message>
+
+<div id="content">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Case.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User1.Email)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Case.Subject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User1.Email)
+                </td>
+                <td>
+                    @Ajax.ActionLink("Show Message", "ShowMessage", "Case", new { messageId = item.MessageID }, new AjaxOptions
+           {
+               HttpMethod = "GET",
+               InsertionMode = InsertionMode.Replace,
+               UpdateTargetId = "CurrentMessageDiv"
+           })
+
+                    @*@Html.ActionLink("Details", "Details", new { id=item.MessageID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.MessageID })*@
+                </td>
+            </tr>
+        }
+    </table>
+    @{
+        bool start = false;
+        bool end = false;
+        //if (ViewBag.CurrentPage == 1)
+        //{
+        //    start = true;
+        //}
+        //if (ViewBag.CurrentPage <= ViewBag.PageCount)
+        //{
+        //    end = true;
+        //}
+        //string FirstClass = "";
+        //string LastClass = "";
+        //int low = 1 , top = 3 ;
+
+        //string CurrentPageClass = "";
+
+        //if (start) { low = 1; } else { low = ViewBag.CurrentPage - 1; }
+        //if (end) { top = ViewBag.PageCount; } else { top = ViewBag.CurrentPage + 1; }
+
+
+        //if (low == 1) { FirstClass = "disabled"; }
+        //if (top == ViewBag.PageCount) { LastClass = "disabled"; }
+
+        if (ViewBag.CurrentPage == 1)
+        {
+            start = true;
+        }
+        else if (ViewBag.CurrentPage == ViewBag.PageCount)
+        {
+            end = true;
+        }
+        string FirstClass = "";
+        string LastClass = "";
+        int low, top;
+
+
+        string CurrentPageClass = "";
+        if (start) { low = 1; top = 3; }
+        else if (end) { low = ViewBag.CurrentPage - 2; top = ViewBag.PageCount; }
+        else { low = ViewBag.CurrentPage - 1; top = ViewBag.CurrentPage + 1; }
+
+        if (ViewBag.PageCount == 1)
+        {
+            top = ViewBag.PageCount;
+            low = 1;
+        }
+
+
+        //Console.WriteLine(low + " " + top);
+        if (low == 1) { FirstClass = "disabled"; }
+        if (top == ViewBag.PageCount) { LastClass = "disabled"; }
+        if (low <= 0) { low = 1; }
+        <ul class="pagination">
+            <li class=@FirstClass>
+                @Ajax.ActionLink("<<", "MessagesPartial", "Case", new { caseId = ViewBag.Case, page = 1 }, new AjaxOptions
+           {
+               HttpMethod = "GET",
+               InsertionMode = InsertionMode.Replace,
+               UpdateTargetId = "content"
+           })
+            </li>
+            @{
+
+                for (int i = low; i <= top; i++)
+                {
+                    CurrentPageClass = "";
+                    if (i > ViewBag.PageCount) { break; }
+                    if (i == ViewBag.CurrentPage)
+                    {
+                        CurrentPageClass = "active";
+                    }
+                    <li class=@CurrentPageClass>
+
+                        @Ajax.ActionLink(i.ToString(), "MessagesPartial", "Case", new { caseId = ViewBag.Case, page = i }, new AjaxOptions
+                   {
+                       HttpMethod = "GET",
+                       InsertionMode = InsertionMode.Replace,
+                       UpdateTargetId = "content"
+                   })
+                    </li>
+                }
+            }
+            <li class=@LastClass>
+                @Ajax.ActionLink(">>", "MessagesPartial", "Case", new { caseId = ViewBag.Case, page = ViewBag.PageCount }, new AjaxOptions
+           {
+               HttpMethod = "GET",
+               InsertionMode = InsertionMode.Replace,
+               UpdateTargetId = "content"
+           })
+            </li>
+        </ul>
+    }
+</div>

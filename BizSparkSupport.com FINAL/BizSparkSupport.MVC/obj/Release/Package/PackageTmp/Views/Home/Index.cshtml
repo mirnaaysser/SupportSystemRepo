@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@section customCss{
+    <link href="~/Content/mwf-west-european-default.min.css" rel="stylesheet" />
+}
+
+<section id="heroText" data-grid="col-12" class="m-hero-item f-medium context-music-artist f-x-center f-y-bottom theme-dark f-background-accent">
+    <picture>
+        <img src="~/Images/Microsoft-BizSpark-Banner.png" alt="Home banner" style="width: 100%; margin-top: -21px;">
+    </picture>
+</section>
+
+<section id="toolsAndResources">
+    <div data-grid="col-12" class="m-area-heading">
+        <h3 class="c-heading-3">From day one, access the tools and resources you need</h3>
+    </div>
+    <div class="m-mosaic">
+        <div class="c-mosaic">
+            <div data-f-mosaic="f-vp1-whole f-vp4-half f-height-medium">
+                <section class="c-mosaic-placement f-background-accent theme-dark">
+                    <div>
+                        <h4 class="c-heading-4">Do more with Microsoft Azure</h4>
+                        <p class="">Startups can access $150 per month for up to five developers.</p>
+                        <h3 class="c-heading-3">Microsoft Azure</h3>
+                    </div>
+                </section>
+            </div>
+            <div data-f-mosaic="f-vp1-whole f-vp4-half">
+                <div class="theme-dark" data-f-mosaic="f-vp1-whole f-vp2-half f-height-medium">
+                    <section class="c-mosaic-placement f-background-neutral-80">
+                        <picture>
+                            <img src="~/Images/Mosaic_02_400x400_1400.png" alt="image of computer screen at an angle with code on the screen" />
+                        </picture>
+                    </section>
+                </div>
+                <div class="theme-dark" data-f-mosaic="f-vp1-whole f-vp2-half f-height-medium">
+                    <section class="c-mosaic-placement f-background-neutral-75">
+                        <picture>
+                            <img src="~/Images/Mosaic_03_400x400_1400.png" alt="image of two men in front of a laptop in a discussion" />
+                        </picture>
+                        <div>
+                            <h4 class="c-heading-4">Free training and support</h4>
+                            <p class="">Enjoy access to hundreds of free training classes, technical content, and phone support to help you on your journey.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div data-f-mosaic="f-vp1-whole f-vp4-half">
+                <div class="theme-dark c-mosaic-placement" data-f-mosaic="f-vp1-whole f-vp2-half f-height-medium">
+                    <section>
+                        <picture>
+                            <img src="~/Images/Mosaic_04_400x400_1400.png" alt="image of two men walking outside, the man in the foreground is looking down at a tablet he is holding with his right hand" />
+                        </picture>
+                        <div>
+                            <h4 class="c-heading-4">Start in the cloud</h4>
+                            <p class="">If your startup is less than five years old, privately held, and earns less than $1M annually, you may qualify.</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="theme-dark" data-f-mosaic="f-vp1-whole f-vp2-half f-height-medium">
+                    <div class="theme-light" data-f-mosaic="f-vp1-whole f-height-small">
+                        <section class="c-mosaic-placement f-valign">
+                            <div style="align-items:center;">
+                                <img id="officeLogo" src="~/Images/Office.png" alt="white microsoft office logo with light gray background" />
+                            </div>
+                        </section>
+                    </div>
+                    <div class="theme-light" data-f-mosaic="f-vp1-whole f-height-small">
+                        <section class="c-mosaic-placement">
+                            <div style="align-items:center;">
+                                <img id="windowsLogo" src="~/Images/Windows.png" alt="white microsoft windows logo with light gray background" />
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="theme-light" data-f-mosaic="f-vp1-whole f-vp4-half f-height-medium">
+                <section class="c-mosaic-placement f-background-neutral-45">
+                    <picture>
+                        <img src="~/Images/Mosaic_01_800x400_1400.png" alt="image of white partner logos scattered evenly on blue microsoft brand blue background" />
+                    </picture>
+                    <div></div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+<div data-grid="col-12" class="m-area-heading">
+    <h3 class="c-heading-3">Ready to scale? We&#39;ve got you covered</h3>
+</div>
+<div class="m-feature" id="bizSparkPlus" data-grid="col-12">
+    <section class="c-feature f-align-left f-background-accent">
+        <picture>
+            <img src="~/Images/Feature_02_800x400_1400.jpg" alt="image of woman with long red hair sitting at a conference table smiling for the camera">
+        </picture>
+        <div id="featureContent">
+            <h2 class="c-heading">BizSpark Plus</h2>
+            <p class="c-paragraph">We&#39;re partnering with 200 of the world&#39;s leading incubators and accelerators to provide startups with up to $120,000 worth of free Azure credits.</p>
+            @*<a href="/en-US/About/Plus" id="linkBSPlus" class="c-call-to-action c-glyph">
+                <span>Find out more</span>
+            </a>*@
+        </div>
+    </section>
+</div>
+
+
+
+<!-- Old home for reference -->
+@*<div class="jumbotron">
+        <h1>Startup Portal</h1>
+        <p class="lead">Register or Login Page.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+                <div class="panel-primary">
+
+                    <div class="panel-body">
+
+                        @Html.ActionLink("Register Now" , "Code", "StartUp" , null , new { @class= "btn btn-primary" , @style="padding: 30px; font-size:20px;"})
+                        &nbsp;<h4 style="display:inline;">  OR  </h4>&nbsp;
+                        @Html.ActionLink("Login" , "Login", "User" , null , new { @class= "btn btn-primary" , @style = "padding: 30px; font-size:20px;" })
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>*@
